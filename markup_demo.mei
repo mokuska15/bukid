@@ -6,10 +6,7 @@
       <fileDesc>
          <titleStmt>
             <title>Tutorial: basic MEI skeleton</title>
-             <respStmt>
-               <persName xml:id="lb" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="117758817" role="composer">Erkel</persName>
-               <persName xml:id="ap" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="1229022201" role="encoder">Dohnányi</persName>
-            </respStmt>
+      
          </titleStmt>
          <pubStmt/>
       </fileDesc>
