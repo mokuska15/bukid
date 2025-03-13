@@ -24,6 +24,12 @@
       <mdiv xml:id="m9q7zl6">
         <score xml:id="sp56qhh1">
           <scoreDef xml:id="sivwtgk1">
+
+<choice>
+    <orig><keySig mode="major" key.accid="f"/></orig>
+    <rdg><keySig mode="major" key.accid="s"/></rdg>
+</choice>
+
             <staffGrp xml:id="s0zxdoz1">
               <staffDef xml:id="sio63p8" clef.line="2" clef.shape="G" lines="5" n="1"/> <!-- Play around with line numbers and clef.shape (G, F, C) -->
             </staffGrp>
@@ -35,7 +41,7 @@
                       <note xml:id="n1puozkx" color="#000000" dur="1" dur.ppq="1024" oct="5" pname="e">
                           <choice xml:id="cshmcdl2" resp="#lb">
                          <rdg xml:id="cia511d" resp="#lb">
-                            <choice><orig><accid xml:id="a1xaz538" accid="f"/></orig><rdg><accid accid="s"/></rdg></choice>
+                            <accid xml:id="a1xaz538" accid="f"/>
                          </rdg>
                          <orig xml:id="og42omg" resp="#ap">
                             <accid xml:id="a1xaz537" accid="s"/>
