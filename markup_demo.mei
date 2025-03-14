@@ -1,54 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-   <meiHead>
-      <fileDesc>
-         <titleStmt>
-            <title>Tutorial: basic MEI skeleton</title>
-      
-         </titleStmt>
-         <pubStmt/>
-      </fileDesc>
-      <encodingDesc xml:id="e3taa26">
-         <appInfo xml:id="akcmvuo2">
-            <application xml:id="a991wju2" enddate="2025-02-22T22:09:58" startdate="2025-02-22T21:43:46" version="1.2.2">
-               <name xml:id="n68lngh1">mei-friend</name>
-               <p xml:id="pii6g3m1">First edit by mei-friend 1.2.2, 20 February 2025.</p>
-            </application>
-         </appInfo>
-      </encodingDesc>
-   </meiHead>
-  <music xml:id="mzl075u1">
-     <body xml:id="bshcgn5">
-      <mdiv xml:id="m9q7zl6">
-        <score xml:id="sp56qhh1">
-          <scoreDef xml:id="sivwtgk1">
-            <staffGrp xml:id="s0zxdoz1">
-              <staffDef xml:id="sio63p8" clef.line="2" clef.shape="G" lines="5" n="1"/> <!-- Play around with line numbers and clef.shape (G, F, C) -->
-            </staffGrp>
-          </scoreDef>
-          <section xml:id="suq6zth1">
-             <measure n="1">
-    <staff n="1">
-        <layer>
-            <choice>
-                <lem>
-                    <note pname="c" oct="4" dur="4"/>
-                </lem>
-                <rdg source="#variantA">
-                    <note pname="d" oct="4" dur="4"/>
-                </rdg>
-                <rdg source="#variantB">
-                    <note pname="e" oct="4" dur="4"/>
-                </rdg>
-            </choice>
-        </layer>
-    </staff>
-</measure>
-          </section>
-        </score>
-      </mdiv>
-    </body>
-  </music>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.1">
+    <music>
+        <body>
+            <mdiv>
+                <score>
+                    <section>
+                        <measure n="1">
+                            <staff n="1">
+                                <layer>
+                                    <choice>
+                                        <lem>
+                                            <note pname="e" oct="4" dur="4">
+                                                <accid accid="f"/>
+                                            </note>
+                                        </lem>
+                                        <rdg>
+                                            <note pname="e" oct="4" dur="4">
+                                                <accid accid="s"/>
+                                            </note>
+                                        </rdg>
+                                    </choice>
+                                </layer>
+                            </staff>
+                        </measure>
+                    </section>
+                </score>
+            </mdiv>
+        </body>
+    </music>
 </mei>
