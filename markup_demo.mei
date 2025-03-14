@@ -1,33 +1,76 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://music-encoding.org/schema/5.1/mei-CMN.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
-    <music>
-        <body>
-            <mdiv>
-                <score>
-                    <section>
-                        <measure n="1">
-                            <staff n="1">
-                                <layer>
-                                    <choice>
-                                        <lem>
-                                            <note pname="e" oct="4" dur="4">
-                                                <accid accid="f"/>
-                                            </note>
-                                        </lem>
-                                        <rdg>
-                                            <note pname="e" oct="4" dur="4">
-                                                <accid accid="s"/>
-                                            </note>
-                                        </rdg>
-                                    </choice>
-                                </layer>
-                            </staff>
-                        </measure>
-                    </section>
-                </score>
-            </mdiv>
-        </body>
-    </music>
-</mei>
+ <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+ <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+ <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+    <meiHead>
+       <fileDesc>
+          <titleStmt>
+             <title>Tutorial: basic MEI skeleton</title>
+ 
+          </titleStmt>
+          <pubStmt/>
+       </fileDesc>
+       <encodingDesc xml:id="e3taa26">
+          <appInfo xml:id="akcmvuo2">
+             <application xml:id="a991wju2" enddate="2025-02-22T22:09:58" startdate="2025-02-22T21:43:46" version="1.2.2">
+                <name xml:id="n68lngh1">mei-friend</name>
+                <p xml:id="pii6g3m1">First edit by mei-friend 1.2.2, 20 February 2025.</p>
+             </application>
+          </appInfo>
+       </encodingDesc>
+    </meiHead>
+   <music xml:id="mzl075u1">
+      <body xml:id="bshcgn5">
+       <mdiv xml:id="m9q7zl6">
+         <score xml:id="sp56qhh1">
+           <scoreDef xml:id="sivwtgk1">
+            <rdg xml:id="rdg-0000000019578080" source="original"></rdg>
+            <rdg xml:id="rdg-0000000019578081" source="Contrafactum"></rdg>
+             <staffGrp xml:id="s0zxdoz1">
+               <staffDef xml:id="sio63p8" clef.line="2" clef.shape="G" lines="5" n="1"/> <!-- Play around with line numbers and clef.shape (G, F, C) -->
+             </staffGrp>
+           </scoreDef>
+           <section xml:id="suq6zth1">
+              <measure xml:id="menurpt2" n="1">
+                 <staff xml:id="s7wecyy2" n="1">
+                    <layer xml:id="lm3p3h9" n="1">
+                       <note xml:id="n1puozkx" color="#000000" dur="1" dur.ppq="1024" oct="5" pname="e">
+                           <choice xml:id="cshmcdl2" resp="#lb">
+                          <rdg xml:id="cia511d" source="original">
+                             <accid xml:id="a1xaz538" accid="f"/>
+                          </rdg>
+                          <orig xml:id="og42omg" source="Contrafactum">
+                             <accid xml:id="a1xaz537" accid="s"/>
+                          </orig>
+                          </choice>
+                       </note>
+                    </layer>
+                    <layer xml:id="l81keb3" n="2">
+                       <note xml:id="n1puuzkx" color="#000000" dur="1" dur.ppq="1024" oct="4" pname="b">
+                       </note>
+                    </layer>
+                 </staff>
+              </measure>
+              <measure n="1">
+     <staff n="1">
+         <layer>
+             <choice>
+                 <lem>
+                     <note pname="c" oct="4" dur="4"/>
+                 </lem>
+                 <rdg source="#variantA">
+                     <note pname="d" oct="4" dur="4"/>
+                 </rdg>
+                 <rdg source="#variantB">
+                     <note pname="e" oct="4" dur="4"/>
+                 </rdg>
+             </choice>
+         </layer>
+     </staff>
+ </measure>
+           </section>
+         </score>
+       </mdiv>
+     </body>
+   </music>
+ </mei>
