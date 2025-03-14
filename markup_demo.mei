@@ -24,7 +24,7 @@
        <mdiv xml:id="m9q7zl6">
          <score xml:id="sp56qhh1">
            <scoreDef xml:id="sivwtgk1">
-            <rdg xml:id="rdg-0000000019578080" source="original"></rdg>
+            <orig xml:id="rdg-0000000019578080" source="original"></orig>
             <rdg xml:id="rdg-0000000019578081" source="Contrafactum"></rdg>
              <staffGrp xml:id="s0zxdoz1">
                <staffDef xml:id="sio63p8" clef.line="2" clef.shape="G" lines="5" n="1"/> <!-- Play around with line numbers and clef.shape (G, F, C) -->
@@ -36,10 +36,10 @@
                     <layer xml:id="lm3p3h9" n="1">
                        <note xml:id="n1puozkx" color="#000000" dur="1" dur.ppq="1024" oct="5" pname="e">
                            <choice xml:id="cshmcdl2" resp="#lb">
-                          <rdg xml:id="cia511d" source="original">
+                          <rdg xml:id="cia511d" source="Contrafactum">
                              <accid xml:id="a1xaz538" accid="f"/>
                           </rdg>
-                          <orig xml:id="og42omg" source="Contrafactum">
+                          <orig xml:id="og42omg" source="original">
                              <accid xml:id="a1xaz537" accid="s"/>
                           </orig>
                           </choice>
