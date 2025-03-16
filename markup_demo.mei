@@ -27,7 +27,7 @@
                 <layer n="1">
                   <app>
                     <lem source="eredeti">
-                      <note pname="f" oct="4" accid="f" dur="4"/>
+                      <note pname="e" oct="4" accid="f" dur="4"/>
                     </lem>
                     <rdg source="valtozat">
                       <note pname="e" oct="4" accid="s" dur="4"/>
