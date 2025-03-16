@@ -30,8 +30,8 @@
                       <note pname="e" oct="4" accid="f" dur="4"/>
                     </lem>
                     <rdg source="valtozat">
-                      <note pname="f" oct="4" dur="4"/>
-                      <accid accid.ges="f" color="red"/>
+                      <note pname="f" oct="4" accid="f" color="red" dur="4"/>
+                  
                     </rdg>
                   </app>
                 </layer>
