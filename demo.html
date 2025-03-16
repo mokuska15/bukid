@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Interacting with editorial markup</title>
+    <link href="editorial-markup.css" rel="stylesheet" type="text/css" />
+    <script src="https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js" defer></script>
+</head>
+<body>
+    <button id="original">Original</button>
+    <button id="contrafactum">Contrafactum</button>
+    <button id="prevPage">Previous page</button>
+    <button id="nextPage">Next page</button>
+    <div id="notation"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", (event) => {
+            verovio.module.onRuntimeInitialized = function () {
+                const tk = new verovio.toolkit();
+                let appXPath = []; // XPath for selecting readings
+                let notationElement = document.getElementById("notation");
+                let currentPage = 1;
+                
+                function loadFile() {
+                    fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/markup_demo.mei")
+                        .then((response) => response.text())
+                        .then((meiXML) => {
+                            tk.setOptions({
+                                pageWidth: document.body.clientWidth,
+                                pageHeight: document.body.clientHeight,
+                                scale: 50,
+                                scaleToPageSize: true,
+                                appXPathQuery: appXPath
+                            });
+                            tk.loadData(meiXML);
+                            notationElement.innerHTML = tk.renderToSVG(currentPage);
+                        });
+                }
+
+                const nextPageHandler = function () {
+                    currentPage = Math.min(currentPage + 1, tk.getPageCount());
+                    notationElement.innerHTML = tk.renderToSVG(currentPage);
+                }
+
+                const prevPageHandler = function () {
+                    currentPage = Math.max(currentPage - 1, 1);
+                    notationElement.innerHTML = tk.renderToSVG(currentPage);
+                }
+
+                const originalHandler = function () {
+                    appXPath = [".//orig"]; // Show original (flat)
+                    loadFile();
+                }
+
+                const contrafactumHandler = function () {
+                    appXPath = [".//rdg"]; // Show contrafactum (sharp)
+                    loadFile();
+                }
+
+                document.getElementById("nextPage").addEventListener("click", nextPageHandler);
+                document.getElementById("prevPage").addEventListener("click", prevPageHandler);
+                document.getElementById("original").addEventListener("click", originalHandler);
+                document.getElementById("contrafactum").addEventListener("click", contrafactumHandler);
+                
+                loadFile();
+            };
+        });
+    </script>
+</body>
+</html>
