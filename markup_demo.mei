@@ -31,9 +31,9 @@
                     </lem>
                     <rdg source="valtozat">
                       <note pname="f" oct="4" accid="f" color="red" dur="4"/>
-                  
                     </rdg>
                   </app>
+                   <note pname="d" oct="4" dur="2"/>
                 </layer>
               </staff>
             </measure>
