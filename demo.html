@@ -9,7 +9,7 @@
 </head>
 <body>
     <button id="original">Original</button>
-    <button id="contrafactum">Contrafactum</button>
+    <button id="contrafactum">Change</button>
     <button id="prevPage">Previous page</button>
     <button id="nextPage">Next page</button>
     <div id="notation"></div>
@@ -20,20 +20,32 @@
                 let appXPath = []; // XPath for selecting readings
                 let notationElement = document.getElementById("notation");
                 let currentPage = 1;
+                let isOriginal = true;
+
+        function updateVerovioSize() {
+            tk.setOptions({
+                pageWidth: window.innerWidth * 0.9,
+                pageHeight: window.innerHeight * 0.8,
+                scale: window.innerWidth < 600 ? 40 : 50,  // Adjust scale for small screens
+                scaleToPageSize: true
+                
+            });
+            notationElement.innerHTML = tk.renderToSVG(1);
+        }
                 
                 function loadFile() {
                     fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/markup_demo.mei")
                         .then((response) => response.text())
                         .then((meiXML) => {
                             tk.setOptions({
-                                pageWidth: document.body.clientWidth,
-                                pageHeight: document.body.clientHeight,
-                                scale: 50,
+                                pageWidth: window.innerWidth * 0.9,
+                                pageHeight: window.innerHeight * 0.8,
+                                scale: window.innerWidth < 600 ? 40 : 50,
                                 scaleToPageSize: true,
                                 appXPathQuery: appXPath
                             });
                             tk.loadData(meiXML);
-                            notationElement.innerHTML = tk.renderToSVG(currentPage);
+                            notationElement.innerHTML = tk.renderToSVG(1);
                         });
                 }
 
@@ -61,6 +73,11 @@
                 document.getElementById("prevPage").addEventListener("click", prevPageHandler);
                 document.getElementById("original").addEventListener("click", originalHandler);
                 document.getElementById("contrafactum").addEventListener("click", contrafactumHandler);
+                document.getElementById("toggleNote").addEventListener("click", () => {
+            isOriginal = !isOriginal;
+            loadFile();
+        });
+                window.addEventListener("resize", updateVerovioSize);
                 
                 loadFile();
             };
