@@ -20,6 +20,7 @@
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
             </staffGrp>
+             <staffDef xml:id="P13" n="2" lines="1">
           </scoreDef>
           <section>
             <measure n="1">
@@ -36,6 +37,13 @@
                    <note pname="d" oct="4" dur="2"/>
                 </layer>
               </staff>
+          <lem source="eredeti">
+              <staff xml:id="s1aod0q0" n="2">
+                        <layer xml:id="l1cfsun9" n="1">
+                           <rest xml:id="r18rt18h"  dur="1" />
+                        </layer>
+                     </staff>
+             </lem>
             </measure>
           </section>
         </score>
