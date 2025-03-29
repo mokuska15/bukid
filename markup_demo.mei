@@ -37,15 +37,13 @@
                    <note pname="d" oct="4" dur="2"/>
                 </layer>
               </staff>
-          <app>
-          <lem source="eredeti">
+         
               <staff xml:id="s1aod0q0" n="2">
                    <layer xml:id="l1cfsun9" n="1">
                    <rest xml:id="r18rt18h"  dur="1" />
                </layer>
               </staff>
-             </lem>
-           </app>
+           
          </measure>
           </section>
         </score>
