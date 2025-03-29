@@ -20,8 +20,11 @@
             <staffGrp>
               <grpSym xml:id="g1i29ll1" symbol="bracket" />
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
-              <staffDef xml:id="P13" n="2" lines="1"/>
+              
             </staffGrp>    
+<staffGrp 
+<staffDef xml:id="P13"  lines="1" n="2" />
+</staffGrp> 
           </scoreDef>
           <section>
             <measure n="1">
