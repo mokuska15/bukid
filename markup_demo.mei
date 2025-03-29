@@ -19,8 +19,9 @@
           <scoreDef>
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
+              <staffDef xml:id="P13" n="2" lines="1"/>
             </staffGrp>
-             <staffDef xml:id="P13" n="2" lines="1"/>
+            
           </scoreDef>
           <section>
             <measure n="1">
