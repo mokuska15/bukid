@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
- <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
- <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
- <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
-   <meiHead>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
     <fileDesc>
       <titleStmt>
         <title>MEI változatokkal</title>
@@ -19,10 +19,7 @@
           <scoreDef>
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
-              <staffGrp xml:id="s6y7r83" bar.thru="true">
-           <staffDef xml:id="sasccn5"  lines="1"  n="2">
-            </staffDef>
-               </staffGrp>
+              <staffDef n="2" lines="1"/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -37,19 +34,19 @@
                       <note pname="f" oct="4" accid="f" color="red" dur="4"/>
                     </rdg>
                   </app>
-                   <note pname="d" oct="4" dur="2"/>
+                  <note pname="d" oct="4" dur="2"/>
                 </layer>
               </staff>
-<app>
-<rdg source="valtozat">
-              <staff xml:id="s1aod0q0" n="2">
-                   <layer xml:id="l1cfsun9" n="1">
-                   <rest xml:id="r18rt18h"  dur="1" />
- </rdg>
-</app>
-               </layer>
+              <staff n="2">
+                <layer n="1">
+                  <app>
+                    <rdg source="valtozat">
+                      <rest dur="1"/>
+                    </rdg>
+                  </app>
+                </layer>
               </staff>
-         </measure>
+            </measure>
           </section>
         </score>
       </mdiv>
