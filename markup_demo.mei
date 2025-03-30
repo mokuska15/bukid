@@ -20,10 +20,10 @@
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
               <staffGrp xml:id="s6y7r83" bar.thru="true">
-           staffDef xml:id="sasccn5"  lines="1"  n="2">
+           <staffDef xml:id="sasccn5"  lines="1"  n="2">
             </staffDef>
                </staffGrp>
-            </staffGrp>    
+            </staffGrp>
           </scoreDef>
           <section>
             <measure n="1">
@@ -40,13 +40,11 @@
                    <note pname="d" oct="4" dur="2"/>
                 </layer>
               </staff>
-         
               <staff xml:id="s1aod0q0" n="2">
                    <layer xml:id="l1cfsun9" n="1">
                    <rest xml:id="r18rt18h"  dur="1" />
                </layer>
               </staff>
-           
          </measure>
           </section>
         </score>
