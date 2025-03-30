@@ -41,11 +41,11 @@
                 </layer>
               </staff>
 <app>
-<lem source="eredeti">
+<rdg source="valtozat">
               <staff xml:id="s1aod0q0" n="2">
                    <layer xml:id="l1cfsun9" n="1">
                    <rest xml:id="r18rt18h"  dur="1" />
- </lem>
+ </rdg>
 </app>
                </layer>
               </staff>
