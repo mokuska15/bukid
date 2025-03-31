@@ -19,7 +19,10 @@
           <scoreDef>
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
+<app>
+                    <rdg source="eredeti">
               <staffDef n="2" lines="1"/>
+</rdg>
             </staffGrp>
           </scoreDef>
           <section>
