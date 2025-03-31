@@ -57,18 +57,18 @@
               </staff>
               <staff n="3">
                 <layer n="1">
-                   <app>
-                    <lem source="eredeti">
+                   <subst>
+                    <del source="eredeti">
                   <note pname="d" oct="4" dur="1"/>
-                    </lem>
-                    <rdg source="valtozat2">
+                    </del>
+                    <add source="valtozat2">
                       <chord dur="4">
                         <note pname="c" oct="4"/>
                         <note pname="e" oct="4"/>
                         <note pname="g" oct="4"/>
                       </chord>
-                    </rdg>
-                    </app>
+                    </add>
+                    </subst>
                 </layer>
               </staff>
             </measure>
