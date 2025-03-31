@@ -25,6 +25,7 @@
 </lem>
  <rdg> <staffDef n="2" lines="0"/></rdg>
                   </app>
+ <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
             </staffGrp>
           </scoreDef>
           <section>
