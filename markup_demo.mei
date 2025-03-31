@@ -61,7 +61,7 @@
                     <lem source="eredeti">
                   <note pname="d" oct="4" dur="1"/>
                     </lem>
-                    <rdg source="valtozat">
+                    <rdg source="valtozat2">
                       <chord dur="4">
                         <note pname="c" oct="4"/>
                         <note pname="e" oct="4"/>
