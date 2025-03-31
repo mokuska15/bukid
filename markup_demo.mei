@@ -39,9 +39,11 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  
+                   <app>
+<lem source="eredeti">
                       <rest dur="1"/>
-                   
+</lem>
+                  </app>  
                 </layer>
               </staff>
             </measure>
