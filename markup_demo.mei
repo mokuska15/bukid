@@ -27,11 +27,11 @@
               <staff n="1">
                 <layer n="1">
                   <app>
-                    <orig source="eredeti">
+                    <lem source="eredeti">
                       <note pname="e" oct="4" accid="f" dur="4"/>
-                    </orig>
+                    </lem>
                     <rdg source="valtozat">
-                      <note pname="f" oct="4" accid="s" color="red" dur="4"/>
+                      <note pname="f" oct="4" accid="f" color="red" dur="4"/>
                     </rdg>
                   </app>
                   <note pname="d" oct="4" dur="2"/>
@@ -39,7 +39,11 @@
               </staff>
               <staff n="2">
                 <layer n="1">
+                  <app>
+                    <rdg source="valtozat">
                       <rest dur="1"/>
+                    </rdg>
+                  </app>
                 </layer>
               </staff>
             </measure>
