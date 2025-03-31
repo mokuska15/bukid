@@ -31,7 +31,7 @@
                       <note pname="e" oct="4" accid="f" dur="4"/>
                     </orig>
                     <rdg source="valtozat">
-                      <note pname="f" oct="4" accid="f" color="red" dur="4"/>
+                      <note pname="f" oct="4" accid="s" color="red" dur="4"/>
                     </rdg>
                   </app>
                   <note pname="d" oct="4" dur="2"/>
