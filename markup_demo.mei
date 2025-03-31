@@ -19,7 +19,11 @@
           <scoreDef>
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
+<app>
+ <lem source="valtozat">
               <staffDef n="2" lines="1"/>
+ <rdg></rdg>
+                  </app>
             </staffGrp>
           </scoreDef>
           <section>
@@ -39,12 +43,10 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <app>
-                    <lem source="valtozat">
+                 
                       <rest dur="1"/>
-                    </lem>
-                    <rdg></rdg>
-                  </app>
+                    
+                   
                 </layer>
               </staff>
             </measure>
