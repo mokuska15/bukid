@@ -20,10 +20,10 @@
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
               <app>
-                <lem source="valtozat">
+                <lem source="original">
                   <staffDef n="2" lines="1"/>
                 </lem>
-                <rdg>
+                <rdg source="version1">
                   <staffDef n="2" lines="0"/>
                 </rdg>
               </app>
@@ -35,10 +35,10 @@
               <staff n="1">
                 <layer n="1">
                   <app>
-                    <lem source="eredeti">
+                    <lem source="original">
                       <note pname="e" oct="4" accid="f" dur="4"/>
                     </lem>
-                    <rdg source="valtozat">
+                    <rdg source="version1">
                       <note pname="f" oct="4" accid="f" color="red" dur="4"/>
                     </rdg>
                   </app>
@@ -48,20 +48,20 @@
               <staff n="2">
                 <layer n="1">
                   <app>
-                    <lem source="eredeti">
+                    <lem source="original">
                       <rest dur="1"/>
                     </lem>
-                    <rdg/>
+                    <rdg source="version1"/>
                   </app>
                 </layer>
               </staff>
               <staff n="3">
                 <layer n="1">
                    <app>
-                    <lem source="eredeti">
+                    <lem source="original">
                   <note pname="d" oct="4" dur="1"/>
                     </lem>
-                    <rdg source="valtozat2">
+                    <rdg source="version2">
                       <chord dur="4">
                         <note pname="c" oct="4"/>
                         <note pname="e" oct="4"/>
