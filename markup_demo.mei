@@ -39,11 +39,9 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                  <app>
-                    <rdg source="valtozat">
+                  
                       <rest dur="1"/>
-                    </rdg>
-                  </app>
+                   
                 </layer>
               </staff>
             </measure>
