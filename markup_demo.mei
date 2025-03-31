@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
   <meiHead>
     <fileDesc>
@@ -19,13 +19,15 @@
           <scoreDef>
             <staffGrp>
               <staffDef n="1" lines="5" clef.shape="G" clef.line="2"/>
-<app>
- <lem source="valtozat">
-              <staffDef n="2" lines="1"/>
-</lem>
- <rdg> <staffDef n="2" lines="0"/></rdg>
-                  </app>
- <staffDef n="3" lines="5" clef.shape="G" clef.line="2"/>
+              <app>
+                <lem source="valtozat">
+                  <staffDef n="2" lines="1"/>
+                </lem>
+                <rdg>
+                  <staffDef n="2" lines="0"/>
+                </rdg>
+              </app>
+                  <staffDef n="3" lines="5" clef.shape="G" clef.line="2"/>
             </staffGrp>
           </scoreDef>
           <section>
@@ -45,12 +47,17 @@
               </staff>
               <staff n="2">
                 <layer n="1">
-                 <app>
-<lem source="eredeti">
+                  <app>
+                    <lem source="eredeti">
                       <rest dur="1"/>
                     </lem>
-                   <rdg></rdg>
-</app>
+                    <rdg/>
+                  </app>
+                </layer>
+              </staff>
+              <staff n="3">
+                <layer n="1">
+                  <note pname="d" oct="4" dur="1"/>
                 </layer>
               </staff>
             </measure>
