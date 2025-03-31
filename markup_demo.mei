@@ -23,7 +23,7 @@
  <lem source="valtozat">
               <staffDef n="2" lines="1"/>
 </lem>
- <rdg></rdg>
+ <rdg> <staffDef n="2" lines="0"/></rdg>
                   </app>
             </staffGrp>
           </scoreDef>
