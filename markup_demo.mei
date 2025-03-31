@@ -40,9 +40,10 @@
               <staff n="2">
                 <layer n="1">
                   <app>
-                    <rdg source="valtozat">
+                    <lem source="valtozat">
                       <rest dur="1"/>
-                    </rdg>
+                    </lem>
+                    <rdg></rdg>
                   </app>
                 </layer>
               </staff>
