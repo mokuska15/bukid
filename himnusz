@@ -176,6 +176,8 @@
                            <keySig xml:id="klr4t4" mode="major" sig="0" cancelaccid="before" />
                            <meterSig xml:id="mq9uo3w" count="4" sym="common" unit="4" />
                         </staffDef>
+                        <app>
+                        <lem source="change">
                         <staffDef xml:id="P13" n="13" lines="1" ppq="256">
                            <label xml:id="lumqy6e">Gran Cassa e Piatti</label>
                            <labelAbbr xml:id="l1j9oa3l">Gr. C e Ptti</labelAbbr>
@@ -183,6 +185,11 @@
                            <keySig xml:id="k1y7cumr" mode="major" sig="0" cancelaccid="before" />
                            <meterSig xml:id="m1dkr674" count="4" sym="common" unit="4" />
                         </staffDef>
+                        /lem>
+                      <rdg source="original">
+                     <staffDef n="2" lines="0"/>
+                         </rdg>
+                        </app>
                         <staffDef xml:id="P14" n="14" scale="86%" lines="5" ppq="256" trans.diat="14" trans.semi="24">
                            <label xml:id="lyecr3u">Campana in Re</label>
                            <labelAbbr xml:id="lxr7nr">Camp</labelAbbr>
@@ -378,11 +385,16 @@
                            </note>
                         </layer>
                      </staff>
+<app>
+<lem>
                      <staff xml:id="s1aod0q0" n="13">
                         <layer xml:id="l1cfsun9" n="1">
                            <rest xml:id="r18rt18h"   dur="1" />
                         </layer>
                      </staff>
+<lem>
+<rdg></rdg>
+</app>
                      <staff xml:id="sh8a3i0" n="14">
                         <layer xml:id="lsii0f7" n="1">
                            <rest xml:id="ret2tgm"   dur="1" />
@@ -616,11 +628,16 @@
                            </note>
                         </layer>
                      </staff>
+<app>
+<lem>
                      <staff xml:id="s1evov21" n="13">
                         <layer xml:id="l1w3gvj9" n="1">
                            <rest xml:id="rbi3xrj"   dur="1" />
                         </layer>
                      </staff>
+</lem>
+<rdg></rdg>
+</app>
                      <staff xml:id="sqpwbrh" n="14">
                         <layer xml:id="ls235n4" n="1">
                            <rest xml:id="r1upv586"   dur="1" />
@@ -817,11 +834,16 @@
                            </note>
                         </layer>
                      </staff>
+<app>
+<lem>
                      <staff xml:id="s16g5q2r" n="13">
                         <layer xml:id="l1amu5fv" n="1">
                            <rest xml:id="r5zor91"   dur="1" />
                         </layer>
                      </staff>
+</lem>
+<rdg></rdg>
+</app>
                      <staff xml:id="sc74noa" n="14">
                         <layer xml:id="l1a5q62w" n="1">
                            <rest xml:id="rfnbt26"   dur="1" />
@@ -1006,11 +1028,16 @@
                            </note>
                         </layer>
                      </staff>
+<app>
+<lem>
                      <staff xml:id="s1af32cq" n="13">
                         <layer xml:id="l1suclcy" n="1">
                            <rest xml:id="rh8hnw9"   dur="1" />
                         </layer>
                      </staff>
+</lem>
+<rdg></rdg>
+</app>
                      <staff xml:id="s8a1zua" n="14">
                         <layer xml:id="l328zqd" n="1">
                            <rest xml:id="r1vcqfc4"   dur="1" />
