@@ -18,10 +18,10 @@
                <name xml:id="nf2hgff">Verovio</name>
                <p xml:id="p36qc7b">Transcoded from MusicXML</p>
             </application>
-         <application xml:id="af3vm101" startdate="2025-02-26T17:49:24" version="1.2.2">
-<name xml:id="nz5ogob1">mei-friend</name>
-<p xml:id="pypoene">First edit by mei-friend 1.2.2, 20 February 2025.</p>
-</application>
+            <application xml:id="af3vm101" enddate="2025-04-03T16:38:51" startdate="2025-02-26T17:49:24" version="1.2.3">
+               <name xml:id="nz5ogob1">mei-friend</name>
+               <p xml:id="pypoene">First edit by mei-friend 1.2.2, 20 February 2025.</p>
+            </application>
 </appInfo>
       </encodingDesc>
    </meiHead>
@@ -153,7 +153,7 @@
                               <staffDef xml:id="P10" n="10" lines="5" ppq="256">
                                  <label xml:id="l4m9yvq">Trombone 1, 2, 3</label>
                                  <labelAbbr xml:id="lbrwbae">Trb</labelAbbr>
-                                 <clef xml:id="cgldxe8" shape="C" color="#000000" line="4" />
+                                 <clef xml:id="cgldxe8" shape="F" color="#000000" line="4" />
                                  <keySig xml:id="k1a1pkhl" mode="major" sig="3f" cancelaccid="before" />
                                  <meterSig xml:id="m173mnqf" count="4" sym="common" unit="4" />
                               </staffDef>
@@ -503,7 +503,7 @@
                            <note xml:id="nngmm3y"   dur="1" oct="3" pname="e" color="#000000" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dir xml:id="d39u4ax" staff="1" tstamp="1" vgrp="2562">
+                     <dir xml:id="d39u4ax" staff="1" tstamp="1" place="above" vgrp="2562">
                         <rend xml:id="r1h7b582" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">Andante religioso</rend>
                      </dir>
                      <tempo xml:id="t1xsk94o" staff="1" tstamp="1" mm="80" mm.unit="4">
@@ -520,46 +520,46 @@
                      <tempo xml:id="tqxfjwz" staff="12" tstamp="1" mm="80" mm.unit="4">
                         <rend xml:id="r182wl5z" glyph.auth="smufl"></rend> = 80</tempo>
                      <trill xml:id="tmqb6s3" staff="12" startid="#nn9chp7" />
-                     <dir xml:id="d1i10wko" staff="25" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1i10wko" staff="25" tstamp="0" place ="above" vgrp="2100">
                         <rend xml:id="r6d0ik" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
-                     <dir xml:id="d1xmg407" staff="25" tstamp="1" vgrp="2422">
+                     <dir xml:id="d1xmg407" staff="25"  place ="above" tstamp="0" vgrp="2422">
                         <rend xml:id="rxygknv" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">Andante religioso</rend>
                      </dir>
                      <tempo xml:id="t1sgvxpz" staff="25" tstamp="1" mm="80" mm.unit="4">
                         <rend xml:id="r1qo0dkj" glyph.auth="smufl"></rend> = 80</tempo>
-                     <dir xml:id="d1gxe1dd" staff="25" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="d1gxe1dd" staff="25" tstamp="2.4"  place ="above" vgrp="2100">
                         <rend xml:id="rgtd5go" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
                      <tie xml:id="t1jnule5" startid="#n1e9ytem" endid="#ncsbjvx" curvedir="below" />
                      <hairpin xml:id="h84anyb" color="#000000" staff="25" tstamp="3.5" tstamp2="0m+4.9961" form="cres" vgrp="650" />
                      <slur xml:id="sei7q7t" color="#000000" startid="#nherxon" endid="#njg3jyk" curvedir="below" />
-                     <dir xml:id="d1ux1phl" staff="26" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1ux1phl" staff="26" tstamp="0"  place ="above" vgrp="2100">
                         <rend xml:id="ra2mw5t" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
-                     <dir xml:id="dhjepgg" staff="26" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="dhjepgg" staff="26" tstamp="2.4"  place ="above" vgrp="2100">
                         <rend xml:id="r16n8mbg" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
                      <tie xml:id="ttu5liq" startid="#no9azpj" endid="#nbnolkz" curvedir="below" />
                      <slur xml:id="sv8adax" color="#000000" startid="#nbnolkz" endid="#ncdy21c" curvedir="below" />
-                     <dir xml:id="d6tgkfr" staff="27" tstamp="1" vgrp="2100">
+                     <dir xml:id="d6tgkfr" staff="27" tstamp="0"  place ="above" vgrp="2100">
                         <rend xml:id="rmwzzqi" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
-                     <dir xml:id="d1lflsp1" staff="27" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="d1lflsp1" staff="27" tstamp="2.4"  place ="above" vgrp="2100">
                         <rend xml:id="rdphycr" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
                      <tie xml:id="t1su58yz" startid="#n1s56mpb" endid="#n38akmi" curvedir="below" />
-                     <dir xml:id="dmrsgbk" staff="28" tstamp="1" vgrp="2100">
+                     <dir xml:id="dmrsgbk" staff="28" tstamp="0"   place ="above" vgrp="2100">
                         <rend xml:id="ryojq9b" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
-                     <dir xml:id="d1xiqlmn" staff="28" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="d1xiqlmn" staff="28" tstamp="2.4"  place ="above" vgrp="2100">
                         <rend xml:id="r1i0d1v9" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
                      <slur xml:id="s5b2s06" color="#000000" startid="#n15q7owl" endid="#n1m44wxo" curvedir="above" />
                      <dynam xml:id="d1p3f7ik" staff="29" tstamp="1" vgrp="700">
                         <rend xml:id="ropkvl1" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">p</rend>
                      </dynam>
-                     <dir xml:id="d10cl0j3" staff="29" tstamp="1" vgrp="2100">
+                     <dir xml:id="d10cl0j3" staff="29" tstamp="0"  place ="above" vgrp="2100">
                         <rend xml:id="r1twup0r" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
                      <hairpin xml:id="hadtmq6" color="#000000" staff="29" tstamp="1" tstamp2="0m+4.9961" form="cres" vgrp="650" />
@@ -758,7 +758,7 @@
                         </layer>
                      </staff>
                      <slur xml:id="s1iumpvf" color="#000000" startid="#ns7ufpz" endid="#n164yg69" curvedir="below" />
-                     <slur xml:id="sd8cf61" color="#000000" startid="#n188730i" endid="#n1ann3d7" curvedir="below" />
+                     <slur xml:id="sd8cf61" color="#000000" startid="#nqq4ptr" endid="#n1ann3d7" curvedir="below" />
                      <slur xml:id="s4o8p9a" color="#000000" startid="#n188730i" endid="#nqq4ptr" curvedir="below" />
                      <slur xml:id="s15ecvm1" color="#000000" startid="#neuklks" endid="#nfhwj1c" curvedir="below" />
                      <tie xml:id="t1ppyhdh" startid="#n1fqpn5" endid="#n1qso1i" curvedir="below" />
@@ -1151,7 +1151,7 @@
                            <note xml:id="n1nef5mz"   dur="1" oct="3" pname="e" color="#000000" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dir xml:id="dsan0ab" staff="1" tstamp="1" vgrp="2530">
+                     <dir xml:id="dsan0ab" staff="1" tstamp="1"  place="above" vgrp="2530">
                         <rend xml:id="rgv1xjk" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">ritardando</rend>
                      </dir>
                      <dir xml:id="duphsvs" staff="12" tstamp="1" vgrp="2530">
@@ -1159,11 +1159,11 @@
                      </dir>
                      <fermata xml:id="f1afry98" staff="12" startid="#n190gxg6" shape="curved" />
                      <trill xml:id="t1uhkueu" staff="12" startid="#n190gxg6" />
-                     <dir xml:id="dwjp3fv" staff="25" tstamp="1" vgrp="2390">
+                     <dir xml:id="dwjp3fv" staff="25" tstamp="1"   place="above" vgrp="2390">
                         <rend xml:id="r11pqu6o" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">ritardando</rend>
                      </dir>
                      <slur xml:id="s772f7w" color="#000000" startid="#n15nnad2" endid="#n1kzfnl0" curvedir="below" />
-                     <slur xml:id="skhetgn" color="#000000" startid="#n1ue3qv8" endid="#nxfc5xh" curvedir="below" />
+                     <slur xml:id="skhetgn" color="#000000" startid="#n1folo5g" endid="#nxfc5xh" curvedir="below" />
                      <slur xml:id="s1owfa8j" color="#000000" startid="#n1ue3qv8" endid="#n1folo5g" curvedir="below" />
                      <fermata xml:id="f1rbtk3i" staff="25" startid="#n1jt0ovn" shape="curved" />
                      <slur xml:id="s1gfrbq" color="#000000" startid="#n15736w3" endid="#n1q5butm" curvedir="below" />
@@ -1171,18 +1171,8 @@
                      <slur xml:id="s10cj6n0" color="#000000" startid="#n1ktuz2q" endid="#n1y4a7kl" curvedir="below" />
                      <slur xml:id="syq9rcq" color="#000000" startid="#novu7xd" endid="#n1za42b" curvedir="below" />
                   </measure>
-                  <sb xml:id="sdzdpd2" />
+                  <pb xml:id="sdzdpd2" />
                   <measure xml:id="m15wgpjj" facs="#zone_01JN1J8W542GSYRT3FB7X3KZK4" n="170">
-                     <staff xml:id="s6fpuuk" n="1" visible="false">
-                        <layer xml:id="li0qnb9" n="1">
-                           <rest xml:id="r1nz94oq"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1drob8h" n="2" visible="false">
-                        <layer xml:id="l10owy12" n="1">
-                           <rest xml:id="rdtnbyt"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="s8agw0r" n="3" visible="true">
                         <layer xml:id="l1l9ds83" n="1">
                            <chord xml:id="chye6hh" dots="1"  dur="4" stem.dir="up">
@@ -1225,84 +1215,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="s1onpiaa" n="5" visible="false">
-                        <layer xml:id="l8ju1gq" n="1">
-                           <rest xml:id="r119b5hv"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="svnskmr" n="6" visible="true">
                         <layer xml:id="lmw0oyf" n="1">
                            <rest xml:id="r1bu3f5t"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s13szb1d" n="7" visible="false">
-                        <layer xml:id="lt1sqe9" n="1">
-                           <rest xml:id="r14qlgnz"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="smvm9hj" n="8" visible="false">
-                        <layer xml:id="l1pb7lyn" n="1">
-                           <rest xml:id="r13et4bt"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1aq2lqn" n="9" visible="false">
-                        <layer xml:id="l1g8ag6p" n="1">
-                           <rest xml:id="rcr3m80"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="shd7nn7" n="10" visible="false">
-                        <layer xml:id="l12ryeg6" n="1">
-                           <rest xml:id="r1xwr3cu"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1nz3iys" n="11" visible="false">
-                        <layer xml:id="liffi5b" n="1">
-                           <rest xml:id="r1qevcmu"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1ps8j6a" n="12" visible="false">
-                        <layer xml:id="l3vsnc8" n="1">
-                           <rest xml:id="r1kfclbg"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="swowwys" n="13" visible="false">
-                        <layer xml:id="lugmohl" n="1">
-                           <rest xml:id="r797jm1"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s12j1ef7" n="14" visible="false">
-                        <layer xml:id="l1892h28" n="1">
-                           <rest xml:id="r1l8zfha"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s18k66k1" n="15" visible="false">
-                        <layer xml:id="l14qpsoz" n="1">
-                           <rest xml:id="rtd0pb3"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1o9hwie" n="16" visible="false">
-                        <layer xml:id="l1blb8cw" n="2">
-                           <rest xml:id="r97yhnm"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="sm0o5r6" n="17" visible="false">
-                        <layer xml:id="lhbxbzk" n="1">
-                           <rest xml:id="r1s2tjcv"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s12z41v6" n="18" visible="false">
-                        <layer xml:id="l1wxv3ll" n="1">
-                           <rest xml:id="r1bxq0lk"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="se11ygy" n="19" visible="false">
-                        <layer xml:id="lp532k3" n="2">
-                           <rest xml:id="rcncsqd"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="spgj90e" n="20" visible="false">
-                        <layer xml:id="l11diwas" n="1">
-                           <rest xml:id="r1k49dwm"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="srf3kug" n="21" visible="true">
@@ -1748,13 +1663,15 @@
                      <slur xml:id="s10j9bgx" color="#000000" startid="#n1v8ab8t" endid="#nu4cf9a" curvedir="below" />
                      <slur xml:id="srx5oe7" color="#000000" startid="#nghk2h1" endid="#n1fkcoqv" curvedir="above" />
                      <slur xml:id="s1316g1m" color="#000000" startid="#njmsxnz" endid="#nlwlfkg" curvedir="above" />
-                     <dir xml:id="d1107eqd" staff="6" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1107eqd" staff="6" place="above" tstamp="1" vgrp="2100">
                         <rend xml:id="rj0mw81" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">1-2.</rend>
                      </dir>
                      <slur xml:id="s1ou19rp" color="#000000" startid="#n8a6sz9" endid="#nk1s1yk" curvedir="below" />
                      <slur xml:id="s7pbzwr" color="#000000" startid="#n1s8yiqe" endid="#n1hubjul" curvedir="below" />
                      <slur xml:id="s14h4m7a" color="#000000" startid="#n5fyngq" endid="#nxc07vq" curvedir="below" />
                      <slur xml:id="sbhrrrs" color="#000000" startid="#n6mvgw1" endid="#n1cixnxb" curvedir="below" />
+                    <trill xml:id="tmq56s3" staff="27" startid="nlun8eg" />
+                     <slur xml:id="syk5frz3" color="#000000" startid="#na5nbda" endid="#ngpevmj" curvedir="below" />
                      <slur xml:id="syk0rz3" color="#000000" startid="#nvl2i5n" endid="#n7v4nf0" curvedir="above" />
                      <slur xml:id="s1vjhe8r" color="#000000" startid="#nc7gark" endid="#n1hx0woy" curvedir="above" />
                   </measure>
@@ -2286,10 +2203,10 @@
                            <space xml:id="sxydvou"  dur="4" />
                            <space xml:id="s1l1g7xa"  dur="8" />
                            <beam xml:id="b1495w73">
-                              <note xml:id="ni3ckfk"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n45m7ku"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="down" accid.ges="f" />
-                              <note xml:id="n1i54i8l"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n1bns3op"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="down" />
+                              <note xml:id="ni3ckfk"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n45m7ku"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="up" accid.ges="f" />
+                              <note xml:id="n1i54i8l"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n1bns3op"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="up" />
                            </beam>
                         </layer>
                      </staff>
@@ -2308,12 +2225,12 @@
                            <space xml:id="s1m62ztw"  dur="4" />
                            <space xml:id="s1nwtjka"  dur="8" />
                            <beam xml:id="b1jk72iq">
-                              <note xml:id="nfrpgqw"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n1me4l9s"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="down">
+                              <note xml:id="nfrpgqw"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n1me4l9s"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="up">
                                  <accid xml:id="a1w9vuf8" accid="f" />
                               </note>
-                              <note xml:id="nj6jrwh"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n175k7u4"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="down" />
+                              <note xml:id="nj6jrwh"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n175k7u4"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="up" />
                            </beam>
                         </layer>
                      </staff>
@@ -2386,16 +2303,6 @@
                   </measure>
                   <pb xml:id="p1olxo7s" facs="#surface_01JN1J8W54JG4NFS39TWZASR1V"/>
                   <measure xml:id="mjv2p3y" facs="#zone_01JN1J8W55XBPY7VZE3KE6QS6D" n="174">
-                     <staff xml:id="s1hiohyj" n="1" visible="false">
-                        <layer xml:id="l1y7hhbb" n="1">
-                           <rest xml:id="r1b9uyag"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="siawjd7" n="2" visible="false">
-                        <layer xml:id="lqny703" n="1">
-                           <rest xml:id="rnhhmxx"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="s1g2a9lv" n="3" visible="true">
                         <layer xml:id="l13rlg0w" n="1">
                            <chord xml:id="ctfierw" dots="1"  dur="4" stem.dir="up">
@@ -2438,84 +2345,15 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="s1izmsp1" n="5" visible="false">
-                        <layer xml:id="l91scq8" n="1">
-                           <rest xml:id="r5q6l5d"   dur="1" />
-                        </layer>
-                     </staff>
+
                      <staff xml:id="s1p53xqq" n="6" visible="true">
                         <layer xml:id="l1q0s5hr" n="1">
                            <rest xml:id="rr6g7e"   dur="1" />
                         </layer>
                      </staff>
-                     <staff xml:id="s1m7grix" n="7" visible="false">
-                        <layer xml:id="lvatlfm" n="1">
-                           <rest xml:id="rnt398k"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1czfcp3" n="8" visible="false">
-                        <layer xml:id="lxagfim" n="1">
-                           <rest xml:id="r1fwllsz"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1lvqodp" n="9" visible="false">
-                        <layer xml:id="l19o7kh5" n="1">
-                           <rest xml:id="rdf5xiz"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="sh3w4xm" n="10" visible="false">
-                        <layer xml:id="l1ocvscw" n="1">
-                           <rest xml:id="r1bw3zq"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="sdxal9v" n="11" visible="false">
-                        <layer xml:id="la5xco9" n="1">
-                           <rest xml:id="rcdslu5"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1jil589" n="12" visible="true">
+                    <staff xml:id="s1jil589" n="12" visible="true">
                         <layer xml:id="l348kew" n="1">
                            <rest xml:id="r1xxnpz2"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="srewtbn" n="13" visible="false">
-                        <layer xml:id="lnwgu8c" n="1">
-                           <rest xml:id="r1cpbv14"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1d77uxr" n="14" visible="false">
-                        <layer xml:id="lheo6xi" n="1">
-                           <rest xml:id="r152w1rm"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s8uxqb0" n="15" visible="false">
-                        <layer xml:id="l11wmy" n="1">
-                           <rest xml:id="rioud2r"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s187ks26" n="16" visible="false">
-                        <layer xml:id="l1ix2kbi" n="2">
-                           <rest xml:id="rpvdr8h"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1ojr9ds" n="17" visible="false">
-                        <layer xml:id="l9jz05k" n="1">
-                           <rest xml:id="ri4maeo"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s15setbs" n="18" visible="false">
-                        <layer xml:id="lvo6ynd" n="1">
-                           <rest xml:id="rsxxfdd"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="skvlict" n="19" visible="false">
-                        <layer xml:id="l1pk6v3" n="2">
-                           <rest xml:id="r1nx0l34"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1no5jyk" n="20" visible="false">
-                        <layer xml:id="ldl6bjw" n="1">
-                           <rest xml:id="rg4c97j"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="so7diup" n="21" visible="true">
@@ -2729,7 +2567,7 @@
                         </layer>
                         <layer xml:id="l1xrh99y" n="2">
                            <space xml:id="s8llqhb"  dur="4" />
-                           <space xml:id="s1876iwc"  dur="8" />
+                           <space xml:id="s1876iwc"  dur="4" />
                            <note xml:id="n1onief7"  dur="4" oct="2" pname="b" color="#000000" stem.dir="down" accid.ges="f" />
                            <note xml:id="nblrpt0"  dur="4" oct="2" pname="a" color="#000000" stem.dir="down" accid.ges="f" />
                         </layer>
@@ -2770,11 +2608,7 @@
                            <rest xml:id="r6q3xch"   dur="1" />
                         </layer>
                      </staff>
-                     <staff xml:id="s71qgqj" n="10">
-                        <layer xml:id="l1qh7rjt" n="1">
-                           <rest xml:id="r1cl7khe"   dur="1" />
-                        </layer>
-                     </staff>
+                    
                      <staff xml:id="sew54tv" n="11">
                         <layer xml:id="lpiavz8" n="1">
                            <rest xml:id="r1p927am"   dur="1" />
@@ -3061,11 +2895,7 @@
                            <rest xml:id="r927e5m"   dur="1" />
                         </layer>
                      </staff>
-                     <staff xml:id="s1fq5b21" n="10">
-                        <layer xml:id="l45wp7n" n="1">
-                           <rest xml:id="rmze32y"   dur="1" />
-                        </layer>
-                     </staff>
+                  
                      <staff xml:id="s1ujpu08" n="11">
                         <layer xml:id="lx6f868" n="1">
                            <rest xml:id="rkje60a"   dur="1" />
@@ -3377,12 +3207,6 @@
                            <rest xml:id="r1t79lvr"   dur="1" />
                         </layer>
                      </staff>
-                     <staff xml:id="s19z6r64" n="10">
-                        <layer xml:id="lhr6qpb" n="1">
-                           <rest xml:id="rw7316t"   dur="1" />
-                           <clef xml:id="c1svojiz" shape="F" color="#000000" line="4" />
-                        </layer>
-                     </staff>
                      <staff xml:id="s1m2sr8n" n="11">
                         <layer xml:id="la1bi90" n="1">
                            <rest xml:id="rndn34w"   dur="1" />
@@ -3687,11 +3511,6 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="s1tq6gc1" n="5" visible="false">
-                        <layer xml:id="l1t835jp" n="1">
-                           <rest xml:id="r1e3fptm"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="s1a0s5fj" n="6" visible="true">
                         <layer xml:id="l8uqr24" n="1">
                            <chord xml:id="cnti4mo" dots="1"  dur="4" stem.dir="up">
@@ -3710,11 +3529,6 @@
                               <note xml:id="nqm8h42" oct="4" pname="e" color="#000000" />
                               <note xml:id="n1kshldh" oct="5" pname="e" color="#000000" />
                            </chord>
-                        </layer>
-                     </staff>
-                     <staff xml:id="s17la0dx" n="7" visible="false">
-                        <layer xml:id="l13ba01v" n="1">
-                           <rest xml:id="rfc6rts"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="s1pbi5so" n="8" visible="true">
@@ -3773,54 +3587,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="s1tfzaar" n="11" visible="false">
-                        <layer xml:id="l1jxux38" n="1">
-                           <rest xml:id="rm76f3k"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="szr3a5f" n="12" visible="true">
                         <layer xml:id="ldum3pz" n="1">
                            <rest xml:id="r8l88ao"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="se40cgv" n="13" visible="false">
-                        <layer xml:id="l1n5jcjn" n="1">
-                           <rest xml:id="rfqfpjt"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1msg6op" n="14" visible="false">
-                        <layer xml:id="l1rl1l6o" n="1">
-                           <rest xml:id="r40gj7s"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s13kkhlr" n="15" visible="false">
-                        <layer xml:id="lzrs057" n="1">
-                           <rest xml:id="r1njd6tg"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s6oxhk7" n="16" visible="false">
-                        <layer xml:id="l13fvcd" n="2">
-                           <rest xml:id="r8nmsaa"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="sx8ml8e" n="17" visible="false">
-                        <layer xml:id="l1qkcc7s" n="1">
-                           <rest xml:id="r13zu4ba"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="shr8h30" n="18" visible="false">
-                        <layer xml:id="l13r192g" n="1">
-                           <rest xml:id="row6iak"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="skkjbtj" n="19" visible="false">
-                        <layer xml:id="lkeaden" n="2">
-                           <rest xml:id="r1411ftb"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1f1iqed" n="20" visible="false">
-                        <layer xml:id="lt9lqv9" n="1">
-                           <rest xml:id="rbcszt9"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="sbz9xf2" n="21" visible="true">
@@ -3992,7 +3761,7 @@
                      <dynam xml:id="d1abd5n1" staff="1" tstamp="1" vgrp="700">
                         <rend xml:id="rooymb3" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1nwbcyo" staff="1" tstamp="1" vgrp="2570">
+                     <dir xml:id="d1nwbcyo" staff="1"  place="above" tstamp="1" vgrp="2570">
                         <rend xml:id="r1q4odt8" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">con forza</rend>
                      </dir>
                      <dynam xml:id="d1fyyyl1" staff="2" tstamp="1" vgrp="810">
@@ -4037,34 +3806,34 @@
                      <dynam xml:id="dweh1is" staff="25" tstamp="1" vgrp="700">
                         <rend xml:id="r1gu7rce" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1sgkq4s" staff="25" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1sgkq4s" staff="25" tstamp="1"  place="above" vgrp="2100">
                         <rend xml:id="rqgblos" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
-                     <dir xml:id="d1j8ccij" staff="25" tstamp="1" vgrp="2390">
+                     <dir xml:id="d1j8ccij" staff="25" tstamp="1" place="above" vgrp="2390">
                         <rend xml:id="r1c2aanb" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">con forza</rend>
                      </dir>
                      <dynam xml:id="dt41krk" staff="26" tstamp="1" vgrp="910">
                         <rend xml:id="r1gns2j2" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1cl8f02" staff="26" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1cl8f02" staff="26"  place="above" tstamp="1" vgrp="2100">
                         <rend xml:id="rhx3xnv" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                      <dynam xml:id="duvchgi" staff="27" tstamp="1" vgrp="810">
                         <rend xml:id="r1ubqe25" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1wj438f" staff="27" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1wj438f" staff="27" place="above" tstamp="1" vgrp="2100">
                         <rend xml:id="r15tb4tm" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                      <dynam xml:id="d83xtjf" staff="28" tstamp="1" vgrp="700">
                         <rend xml:id="r13xbubj" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1jfig6d" staff="28" tstamp="1" vgrp="2120">
+                     <dir xml:id="d1jfig6d" staff="28"  place="above" tstamp="1" vgrp="2120">
                         <rend xml:id="rmb1pvd" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                      <dynam xml:id="d7m1h1r" staff="29" tstamp="1" vgrp="700">
                         <rend xml:id="r7nzyvr" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="dji0xdm" staff="29" tstamp="1" vgrp="2120">
+                     <dir xml:id="dji0xdm" staff="29" place="above" tstamp="1" vgrp="2120">
                         <rend xml:id="r7zqdlg" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                   </measure>
@@ -4472,10 +4241,10 @@
                            <note xml:id="n144zvyk"  dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
                         </layer>
                      </staff>
-                     <dir xml:id="d1kwl52b" staff="1" tstamp="1" vgrp="2570">
+                     <dir xml:id="d1kwl52b" staff="1" tstamp="1"  place="above" vgrp="2570">
                         <rend xml:id="r1rfqv2n" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
-                     <dir xml:id="d1k65548" staff="25" tstamp="1" vgrp="2390">
+                     <dir xml:id="d1k65548" staff="25" tstamp="1"  place="above" vgrp="2390">
                         <rend xml:id="rif5hm1" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
                      <slur xml:id="s1711yel" color="#000000" startid="#n1tdnr8w" endid="#n13gc58c" curvedir="below" />
@@ -5289,7 +5058,7 @@
                            <note xml:id="n3xlhsi"  dur="2" oct="3" pname="b" color="#000000" stem.dir="down" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dir xml:id="d8nn1mg" staff="1" tstamp="1" vgrp="2570">
+                     <dir xml:id="d8nn1mg" staff="1"  place="above" tstamp="1"  vgrp="2570">
                         <rend xml:id="r10gmv4k" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
                      <hairpin xml:id="h17eve9t" color="#000000" staff="1" tstamp="3" tstamp2="0m+3.5039" form="cres" vgrp="550" />
@@ -5408,11 +5177,6 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="s1aue9hh" n="5" visible="false">
-                        <layer xml:id="luhu40x" n="1">
-                           <rest xml:id="r1ak6smu"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="sjqd4a4" n="6" visible="true">
                         <layer xml:id="lvsoo64" n="1">
                            <chord xml:id="c7sp1wq" dots="1"  dur="4" stem.dir="down">
@@ -5431,11 +5195,6 @@
                               <note xml:id="nibyp2o" oct="4" pname="a" color="#000000" />
                               <note xml:id="ne2x2v8" oct="5" pname="c" color="#000000" />
                            </chord>
-                        </layer>
-                     </staff>
-                     <staff xml:id="sgxqxbl" n="7" visible="false">
-                        <layer xml:id="l1amail9" n="1">
-                           <rest xml:id="rrf8mgj"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="se12m7y" n="8" visible="true">
@@ -5492,54 +5251,9 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="s11v59ov" n="11" visible="false">
-                        <layer xml:id="l1kr1qpi" n="1">
-                           <rest xml:id="rp9fu14"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="sndri1w" n="12" visible="true">
                         <layer xml:id="lywoqoi" n="1">
                            <rest xml:id="r4tsbhc"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1tjtb3h" n="13" visible="false">
-                        <layer xml:id="l1qqmg96" n="1">
-                           <rest xml:id="rnyibv6"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1pci60g" n="14" visible="false">
-                        <layer xml:id="l1kzz0gy" n="1">
-                           <rest xml:id="r8wmt61"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="shkv3ej" n="15" visible="false">
-                        <layer xml:id="lw9xjie" n="1">
-                           <rest xml:id="rbefoxh"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s1a56bah" n="16" visible="false">
-                        <layer xml:id="l12vm293" n="2">
-                           <rest xml:id="r9rn0ol"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="seacm7t" n="17" visible="false">
-                        <layer xml:id="l1ri8jdm" n="1">
-                           <rest xml:id="r1rycivb"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="syxat32" n="18" visible="false">
-                        <layer xml:id="l1ihrx8c" n="1">
-                           <rest xml:id="rl1ctvz"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="sdv3n06" n="19" visible="false">
-                        <layer xml:id="l1sch1mz" n="2">
-                           <rest xml:id="rk0pxu3"   dur="1" />
-                        </layer>
-                     </staff>
-                     <staff xml:id="s6wtolc" n="20" visible="false">
-                        <layer xml:id="lifyq01" n="1">
-                           <rest xml:id="r1x6jp0f"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="s1vmzr40" n="21" visible="true">
@@ -6058,12 +5772,12 @@
                            <note xml:id="n1easfey"  dur="4" oct="2" pname="b" color="#000000" stem.dir="up" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dynam xml:id="dnkvka6" staff="1" tstamp="1" vgrp="2600">
+                     <dynam xml:id="dnkvka6" staff="1" tstamp="1" place="above" vgrp="2600">
                         <rend xml:id="r9d9g66" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                      <hairpin xml:id="h10r0ar2" color="#000000" staff="12" tstamp="1" tstamp2="0m+4.9961" form="dim" vgrp="650" />
                      <trill xml:id="t1jrjrwj" staff="12" startid="#n1sfp6uw" />
-                     <dynam xml:id="d1cpa9yo" staff="25" tstamp="1" vgrp="2300">
+                     <dynam xml:id="d1cpa9yo" staff="25" tstamp="1" place="above" vgrp="2300">
                         <rend xml:id="rvz7mam" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                   </measure>
@@ -6586,31 +6300,33 @@
                      <dynam xml:id="depocv3" staff="10" tstamp="1" vgrp="700">
                         <rend xml:id="rteaafs" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
+                     <trill xml:id="t1jr5rwj" staff="12" startid="#ncxu51c" />
+                     <trill xml:id="t1ji5rwj" staff="12" startid="#nu955uw" />
                      <dynam xml:id="dxsufoy" staff="12" tstamp="1" vgrp="700">
                         <rend xml:id="r1lufsyl" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="d1q6n08h" staff="21" tstamp="1" vgrp="2150">
+                     <dynam xml:id="d1q6n08h" staff="21" tstamp="1"  place="above" vgrp="2150">
                         <rend xml:id="r674b6q" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="dhxq3lu" staff="22" tstamp="1" vgrp="2150">
+                     <dynam xml:id="dhxq3lu" staff="22" tstamp="1" place="above" vgrp="2150">
                         <rend xml:id="r1pgvi62" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="de4n9c1" staff="23" tstamp="1" vgrp="2150">
+                     <dynam xml:id="de4n9c1" staff="23" tstamp="1" place="above" vgrp="2150">
                         <rend xml:id="r136kibd" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="d3rvpqa" staff="24" tstamp="1" vgrp="2150">
+                     <dynam xml:id="d3rvpqa" staff="24" tstamp="1" place="above" vgrp="2150">
                         <rend xml:id="rh5c75e" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dir xml:id="d151iemo" staff="25" tstamp="1" vgrp="2100">
+                     <dir xml:id="d151iemo" staff="25" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r1ai0a3f" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="dxlapu4" staff="26" tstamp="1" vgrp="2100">
+                     <dir xml:id="dxlapu4" staff="26" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="rft8d7c" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d1bo8zde" staff="27" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1bo8zde" staff="27" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r102117j" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d1u290gm" staff="28" tstamp="1" vgrp="2170">
+                     <dir xml:id="d1u290gm" staff="28" tstamp="1" place="above" vgrp="2170">
                         <rend xml:id="rfakti" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
                      <dir xml:id="d1umpjyk" staff="29" tstamp="1" vgrp="2170">
@@ -7114,11 +6830,6 @@
                            </chord>
                         </layer>
                      </staff>
-                     <staff xml:id="sbqnsgk" n="5" visible="false">
-                        <layer xml:id="lb2ulot" n="1">
-                           <rest xml:id="r1l5bs7x"   dur="1" />
-                        </layer>
-                     </staff>
                      <staff xml:id="s1bn13he" n="6" visible="true">
                         <layer xml:id="l13cxmcl" n="1">
                            <chord xml:id="c13fot63" dots="1"  dur="4" stem.dir="down">
@@ -7137,11 +6848,6 @@
                               <note xml:id="n1o4ll0v" oct="4" pname="a" color="#000000" />
                               <note xml:id="n1g4wjux" oct="5" pname="c" color="#000000" />
                            </chord>
-                        </layer>
-                     </staff>
-                     <staff xml:id="ssu1sck" n="7" visible="false">
-                        <layer xml:id="l1saz9bx" n="1">
-                           <rest xml:id="r1i6jz0u"   dur="1" />
                         </layer>
                      </staff>
                      <staff xml:id="sj6g1no" n="8" visible="true">
@@ -7406,39 +7112,29 @@
                      <dynam xml:id="d1pfxgmw" staff="8" tstamp="1" vgrp="720">
                         <rend xml:id="r2rmnds" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">fff</rend>
                      </dynam>
-                     <dir xml:id="d171qd5u" staff="22" tstamp="1" vgrp="1030">
+                     <dir xml:id="d171qd5u" staff="22" tstamp="1" vgrp="100">
                         <rend xml:id="r1ysse35" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">Coro</rend>
                      </dir>
                      <dynam xml:id="d1n76mxq" staff="25" tstamp="1" vgrp="700">
                         <rend xml:id="r1glc3bl" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">fff</rend>
                      </dynam>
-                     <dir xml:id="d3aoutx" staff="25" tstamp="1" vgrp="2200">
-                        <rend xml:id="r1f1od4u" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
-                     </dir>
+                     
                      <dynam xml:id="d1qpcd3l" staff="26" tstamp="1" vgrp="710">
                         <rend xml:id="r3lu9yc" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">fff</rend>
                      </dynam>
-                     <dir xml:id="dayik44" staff="26" tstamp="1" vgrp="2100">
-                        <rend xml:id="r7z0l82" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
-                     </dir>
+               
                      <dynam xml:id="d1nxlwu2" staff="27" tstamp="1" vgrp="700">
                         <rend xml:id="rbhliup" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">fff</rend>
                      </dynam>
-                     <dir xml:id="d1fc5ac0" staff="27" tstamp="1" vgrp="2130">
-                        <rend xml:id="r1qan47d" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
-                     </dir>
+                     
                      <dynam xml:id="d1loff2x" staff="28" tstamp="1" vgrp="710">
                         <rend xml:id="r1oj6lyc" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">fff</rend>
                      </dynam>
-                     <dir xml:id="df995q9" staff="28" tstamp="1" vgrp="2100">
-                        <rend xml:id="r17r2r1h" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
-                     </dir>
+                     
                      <dynam xml:id="drpr0o8" staff="29" tstamp="1" vgrp="710">
                         <rend xml:id="r113x73r" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">fff</rend>
                      </dynam>
-                     <dir xml:id="d1cx8fiv" staff="29" tstamp="1" vgrp="2100">
-                        <rend xml:id="r15idng9" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
-                     </dir>
+                    
                   </measure>
                   <measure xml:id="m1rlwt6v" facs="#zone_01JN1J8W58QT4NQ9XW3GPP0ZFQ" n="187">
                      <staff xml:id="s2hpwls" n="1">
@@ -7779,13 +7475,13 @@
                            <note xml:id="nq7ei8w"  dur="4" oct="2" pname="b" color="#000000" stem.dir="up" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dynam xml:id="d1ja18yc" staff="1" tstamp="1" vgrp="2600">
+                     <dynam xml:id="d1ja18yc" staff="1" tstamp="1" place="above" vgrp="2600">
                         <rend xml:id="r1l1jecs" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                      <hairpin xml:id="hafguga" color="#000000" staff="12" tstamp="1" tstamp2="0m+4.9961" form="dim" vgrp="650" />
                      <trill xml:id="teubjlj" staff="12" startid="#n1cawne8" />
-                     <dynam xml:id="dcfz27g" staff="25" tstamp="1" vgrp="2300">
-                        <rend xml:id="rce8lfz" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
+                     <dynam xml:id="dcfz27g" staff="25" tstamp="1" place="above" vgrp="3000">
+                        <rend xml:id="rce8lfz"  fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                   </measure>
                   <measure xml:id="mbdra5t" facs="#zone_01JN1J8W58PJM5HPRTYZWF5QJ5" n="188">
@@ -8266,7 +7962,7 @@
                                  <artic xml:id="a1j7mls" artic="acc" />
                               </note>
                               <note xml:id="n1fmjuxh"  dur="8" oct="2" pname="a" color="#000000" stem.dir="down" accid.ges="f">
-                                 <artic xml:id="a15x0b98" artic="acc" />
+                                 <artic xml:id="a15x0b98"  artic="acc" />
                               </note>
                            </beam>
                            <beam xml:id="b1e920z1">
@@ -8292,7 +7988,7 @@
                      <dynam xml:id="d8tx216" staff="4" tstamp="1" vgrp="700">
                         <rend xml:id="rtj5l1q" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dir xml:id="dz45t14" staff="4" tstamp="1" vgrp="2100">
+                     <dir xml:id="dz45t14" staff="4" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r1sd9nq5" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">a2</rend>
                      </dir>
                      <dynam xml:id="d5u4us" staff="6" tstamp="1" vgrp="700">
@@ -8307,6 +8003,8 @@
                      <dynam xml:id="dtgcvqn" staff="10" tstamp="1" vgrp="700">
                         <rend xml:id="r19xvmak" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
+                     <trill xml:id="te4bjlj" staff="12" startid="#n1bzm87b" />
+                     <trill xml:id="te5bjlj" staff="12" startid="#n1utb979" />
                      <dynam xml:id="d1ehfrk3" staff="12" tstamp="1" vgrp="700">
                         <rend xml:id="r9dafme" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
@@ -8322,19 +8020,19 @@
                      <dynam xml:id="de7t6y5" staff="24" tstamp="1" vgrp="2150">
                         <rend xml:id="r733b6p" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dir xml:id="d1qvkc56" staff="25" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1qvkc56" staff="25" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="rdfql1f" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="dlw4n29" staff="26" tstamp="1" vgrp="2100">
+                     <dir xml:id="dlw4n29" staff="26" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r1nfp1na" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d3z97kc" staff="27" tstamp="1" vgrp="2100">
+                     <dir xml:id="d3z97kc" staff="27" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r1d08vrq" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d16qjk3j" staff="28" tstamp="1" vgrp="2170">
+                     <dir xml:id="d16qjk3j" staff="28" tstamp="1"  place="above" vgrp="2170">
                         <rend xml:id="ryb2tte" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d1kx2j0z" staff="29" tstamp="1" vgrp="2170">
+                     <dir xml:id="d1kx2j0z" staff="29" tstamp="1" place="above" vgrp="2170">
                         <rend xml:id="rk8e608" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
                   </measure>
@@ -8392,7 +8090,7 @@
                               <note xml:id="n13ofwla" oct="5" pname="c" color="#000000" />
                            </chord>
                         </layer>
-                     </staff>
+                            </staff>
                      <staff xml:id="smab5mb" n="7">
                         <layer xml:id="l19rzwzd" n="1">
                            <rest xml:id="r1pi5aqf"   dur="1" />
@@ -8579,6 +8277,7 @@
                      </staff>
                      <tie xml:id="t1qjoden" startid="#nij7n62" curvedir="below" />
                      <tie xml:id="t1rubr84" startid="#n13ofwla" endid="#nvl93df" curvedir="above" />
+                     <tie xml:id="t1ru5r84" startid="#nij7n62" endid="#nz84xrm" curvedir="below" />
                      <trill xml:id="t4laio1" staff="12" startid="#ntnoubl" />
                      <hairpin xml:id="h1539af8" color="#000000" staff="21" tstamp="1" tstamp2="0m+2" form="cres" vgrp="2150" />
                      <hairpin xml:id="hfltjz5" color="#000000" staff="21" tstamp="2.375" tstamp2="0m+4" form="dim" vgrp="2150" />
@@ -8588,10 +8287,10 @@
                      <hairpin xml:id="hd9e5zj" color="#000000" staff="23" tstamp="2.375" tstamp2="0m+4" form="dim" vgrp="2150" />
                      <hairpin xml:id="h158i33n" color="#000000" staff="24" tstamp="1" tstamp2="0m+2" form="cres" vgrp="2150" />
                      <hairpin xml:id="hekdcr9" color="#000000" staff="24" tstamp="2.375" tstamp2="0m+4" form="dim" vgrp="2150" />
-                     <dir xml:id="dnxrf0t" staff="25" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="dnxrf0t" staff="25" place ="above" tstamp="1.5" vgrp="2100">
                         <rend xml:id="r155j96z" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
-                     <dir xml:id="d5lesgj" staff="25" tstamp="1.5" vgrp="2250">
+                     <dir xml:id="d5lesgj" staff="25" tstamp="1.5" place ="above" vgrp="2250">
                         <rend xml:id="r1ih1dke" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
                      <dynam xml:id="d8bxbi2" staff="25" tstamp="1.5" vgrp="700">
@@ -8600,10 +8299,10 @@
                      <tie xml:id="t1s9vlwv" startid="#n15nlfj" endid="#nd7wil6" curvedir="below" />
                      <hairpin xml:id="hqfi8uw" color="#000000" staff="25" tstamp="3.5" tstamp2="0m+4.9961" form="cres" vgrp="650" />
                      <slur xml:id="s404q9a" color="#000000" startid="#n1u9gu1p" endid="#ncozkg7" curvedir="below" />
-                     <dir xml:id="dnzj574" staff="26" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="dnzj574" staff="26" tstamp="1.5" place ="above" vgrp="2000">
                         <rend xml:id="rv0cfee" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
-                     <dir xml:id="d1w68a98" staff="26" tstamp="1.5" vgrp="2250">
+                     <dir xml:id="d1w68a98" staff="26" tstamp="1.5"  place ="above" vgrp="2250">
                         <rend xml:id="r1pcjtxj" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
                      <dynam xml:id="d12os67i" staff="26" tstamp="1.5" vgrp="700">
@@ -8611,10 +8310,10 @@
                      </dynam>
                      <tie xml:id="t14n0zsn" startid="#n11czhjq" endid="#nu31hzp" curvedir="below" />
                      <tie xml:id="t10m4uap" startid="#n13sz9w" endid="#n1fxi4nf" curvedir="below" />
-                     <dir xml:id="d1cn9dq" staff="27" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="d1cn9dq" staff="27" tstamp="1.5"  place ="above" vgrp="2100">
                         <rend xml:id="r1auobg3" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
-                     <dir xml:id="d1mxe1o8" staff="27" tstamp="1.5" vgrp="2250">
+                     <dir xml:id="d1mxe1o8" staff="27" tstamp="1.5"  place ="above" vgrp="2250">
                         <rend xml:id="r1f1iplu" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
                      <dynam xml:id="d11nrix3" staff="27" tstamp="1.5" vgrp="700">
@@ -8622,10 +8321,10 @@
                      </dynam>
                      <tie xml:id="t1i75p49" startid="#n18q0ne0" endid="#njq867m" curvedir="below" />
                      <tie xml:id="t9lbtc5" startid="#njq867m" endid="#n1y693hr" curvedir="below" />
-                     <dir xml:id="d1yj025b" staff="28" tstamp="1.5" vgrp="2100">
+                     <dir xml:id="d1yj025b" staff="28" tstamp="1.5"  place ="above" vgrp="2000">
                         <rend xml:id="rj548fp" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
-                     <dir xml:id="d1oejsnf" staff="28" tstamp="1.5" vgrp="2130">
+                     <dir xml:id="d1oejsnf" staff="28" tstamp="1.5"  place ="above" vgrp="2250">
                         <rend xml:id="risyj36" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
                      <dynam xml:id="dkvmejx" staff="28" tstamp="1.5" vgrp="700">
@@ -8635,10 +8334,10 @@
                      <dynam xml:id="do7865q" staff="29" tstamp="1" vgrp="700">
                         <rend xml:id="r1o68w0r" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">p</rend>
                      </dynam>
-                     <dir xml:id="d1sii8f" staff="29" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1sii8f" staff="29" tstamp="1.5"  place ="above" vgrp="2000">
                         <rend xml:id="r151ewtw" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">arco</rend>
                      </dir>
-                     <dir xml:id="d17izvd8" staff="29" tstamp="1" vgrp="2250">
+                     <dir xml:id="d17izvd8" staff="29" tstamp="1.5" place ="above"  vgrp="2150">
                         <rend xml:id="r17hzraa" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">con sord.</rend>
                      </dir>
                      <hairpin xml:id="h1sn38wc" color="#000000" staff="29" tstamp="1" tstamp2="0m+4.9961" form="cres" vgrp="650" />
@@ -9079,6 +8778,7 @@
                      <slur xml:id="sen6m0r" color="#000000" startid="#nka89nr" endid="#n1ypuksz" curvedir="below" />
                      <tie xml:id="tjfk9bg" startid="#nrxlapx" endid="#n2edqn2" curvedir="above" />
                      <slur xml:id="s1t06nrm" color="#000000" startid="#nd7g1f6" endid="#np9kl46" curvedir="above" />
+                     
                      <tie xml:id="t1fd2cen" startid="#n1m7kcmn" endid="#n6gl9w7" curvedir="below" />
                      <slur xml:id="s1uan6zh" color="#000000" startid="#nj05ico" endid="#n11quo56" curvedir="below" />
                      <slur xml:id="swny33q" color="#000000" startid="#nhhmv9v" endid="#nshbfm" curvedir="below" />
