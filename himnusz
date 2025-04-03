@@ -3761,7 +3761,7 @@
                      <dynam xml:id="d1abd5n1" staff="1" tstamp="1" vgrp="700">
                         <rend xml:id="rooymb3" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1nwbcyo" staff="1" tstamp="1" vgrp="2570">
+                     <dir xml:id="d1nwbcyo" staff="1"  place="above" tstamp="1" vgrp="2570">
                         <rend xml:id="r1q4odt8" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">con forza</rend>
                      </dir>
                      <dynam xml:id="d1fyyyl1" staff="2" tstamp="1" vgrp="810">
@@ -3806,34 +3806,34 @@
                      <dynam xml:id="dweh1is" staff="25" tstamp="1" vgrp="700">
                         <rend xml:id="r1gu7rce" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1sgkq4s" staff="25" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1sgkq4s" staff="25" tstamp="1"  place="above" vgrp="2100">
                         <rend xml:id="rqgblos" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
-                     <dir xml:id="d1j8ccij" staff="25" tstamp="1" vgrp="2390">
+                     <dir xml:id="d1j8ccij" staff="25" tstamp="1" place="above" vgrp="2390">
                         <rend xml:id="r1c2aanb" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">con forza</rend>
                      </dir>
                      <dynam xml:id="dt41krk" staff="26" tstamp="1" vgrp="910">
                         <rend xml:id="r1gns2j2" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1cl8f02" staff="26" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1cl8f02" staff="26"  place="above" tstamp="1" vgrp="2100">
                         <rend xml:id="rhx3xnv" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                      <dynam xml:id="duvchgi" staff="27" tstamp="1" vgrp="810">
                         <rend xml:id="r1ubqe25" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1wj438f" staff="27" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1wj438f" staff="27" place="above" tstamp="1" vgrp="2100">
                         <rend xml:id="r15tb4tm" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                      <dynam xml:id="d83xtjf" staff="28" tstamp="1" vgrp="700">
                         <rend xml:id="r13xbubj" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="d1jfig6d" staff="28" tstamp="1" vgrp="2120">
+                     <dir xml:id="d1jfig6d" staff="28"  place="above" tstamp="1" vgrp="2120">
                         <rend xml:id="rmb1pvd" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                      <dynam xml:id="d7m1h1r" staff="29" tstamp="1" vgrp="700">
                         <rend xml:id="r7nzyvr" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">f</rend>
                      </dynam>
-                     <dir xml:id="dji0xdm" staff="29" tstamp="1" vgrp="2120">
+                     <dir xml:id="dji0xdm" staff="29" place="above" tstamp="1" vgrp="2120">
                         <rend xml:id="r7zqdlg" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">senza sord.</rend>
                      </dir>
                   </measure>
@@ -4241,7 +4241,7 @@
                            <note xml:id="n144zvyk"  dur="2" oct="3" pname="g" color="#000000" stem.dir="down" />
                         </layer>
                      </staff>
-                     <dir xml:id="d1kwl52b" staff="1" tstamp="1" vgrp="2570">
+                     <dir xml:id="d1kwl52b" staff="1" tstamp="1"  place="above" vgrp="2570">
                         <rend xml:id="r1rfqv2n" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
                      <dir xml:id="d1k65548" staff="25" tstamp="1" vgrp="2390">
@@ -5058,7 +5058,7 @@
                            <note xml:id="n3xlhsi"  dur="2" oct="3" pname="b" color="#000000" stem.dir="down" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dir xml:id="d8nn1mg" staff="1" tstamp="1" vgrp="2570">
+                     <dir xml:id="d8nn1mg" staff="1"  place="above" tstamp="1"  vgrp="2570">
                         <rend xml:id="r10gmv4k" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
                      <hairpin xml:id="h17eve9t" color="#000000" staff="1" tstamp="3" tstamp2="0m+3.5039" form="cres" vgrp="550" />
@@ -5772,12 +5772,12 @@
                            <note xml:id="n1easfey"  dur="4" oct="2" pname="b" color="#000000" stem.dir="up" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dynam xml:id="dnkvka6" staff="1" tstamp="1" vgrp="2600">
+                     <dynam xml:id="dnkvka6" staff="1" tstamp="1" place="above" vgrp="2600">
                         <rend xml:id="r9d9g66" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                      <hairpin xml:id="h10r0ar2" color="#000000" staff="12" tstamp="1" tstamp2="0m+4.9961" form="dim" vgrp="650" />
                      <trill xml:id="t1jrjrwj" staff="12" startid="#n1sfp6uw" />
-                     <dynam xml:id="d1cpa9yo" staff="25" tstamp="1" vgrp="2300">
+                     <dynam xml:id="d1cpa9yo" staff="25" tstamp="1" place="above" vgrp="2300">
                         <rend xml:id="rvz7mam" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                   </measure>
@@ -6300,31 +6300,33 @@
                      <dynam xml:id="depocv3" staff="10" tstamp="1" vgrp="700">
                         <rend xml:id="rteaafs" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
+                     <trill xml:id="t1jr5rwj" staff="12" startid="#ncxu51c" />
+                     <trill xml:id="t1ji5rwj" staff="12" startid="#nu955uw" />
                      <dynam xml:id="dxsufoy" staff="12" tstamp="1" vgrp="700">
                         <rend xml:id="r1lufsyl" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="d1q6n08h" staff="21" tstamp="1" vgrp="2150">
+                     <dynam xml:id="d1q6n08h" staff="21" tstamp="1"  place="above" vgrp="2150">
                         <rend xml:id="r674b6q" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="dhxq3lu" staff="22" tstamp="1" vgrp="2150">
+                     <dynam xml:id="dhxq3lu" staff="22" tstamp="1" place="above" vgrp="2150">
                         <rend xml:id="r1pgvi62" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="de4n9c1" staff="23" tstamp="1" vgrp="2150">
+                     <dynam xml:id="de4n9c1" staff="23" tstamp="1" place="above" vgrp="2150">
                         <rend xml:id="r136kibd" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dynam xml:id="d3rvpqa" staff="24" tstamp="1" vgrp="2150">
+                     <dynam xml:id="d3rvpqa" staff="24" tstamp="1" place="above" vgrp="2150">
                         <rend xml:id="rh5c75e" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
-                     <dir xml:id="d151iemo" staff="25" tstamp="1" vgrp="2100">
+                     <dir xml:id="d151iemo" staff="25" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r1ai0a3f" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="dxlapu4" staff="26" tstamp="1" vgrp="2100">
+                     <dir xml:id="dxlapu4" staff="26" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="rft8d7c" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d1bo8zde" staff="27" tstamp="1" vgrp="2100">
+                     <dir xml:id="d1bo8zde" staff="27" tstamp="1" place="above" vgrp="2100">
                         <rend xml:id="r102117j" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
-                     <dir xml:id="d1u290gm" staff="28" tstamp="1" vgrp="2170">
+                     <dir xml:id="d1u290gm" staff="28" tstamp="1" place="above" vgrp="2170">
                         <rend xml:id="rfakti" fontfam="Minion Pro" fontstyle="normal" fontweight="normal">pizz.</rend>
                      </dir>
                      <dir xml:id="d1umpjyk" staff="29" tstamp="1" vgrp="2170">
@@ -7473,7 +7475,7 @@
                            <note xml:id="nq7ei8w"  dur="4" oct="2" pname="b" color="#000000" stem.dir="up" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dynam xml:id="d1ja18yc" staff="1" tstamp="1" vgrp="2600">
+                     <dynam xml:id="d1ja18yc" staff="1" tstamp="1" place="above" vgrp="2600">
                         <rend xml:id="r1l1jecs" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">diminuendo</rend>
                      </dynam>
                      <hairpin xml:id="hafguga" color="#000000" staff="12" tstamp="1" tstamp2="0m+4.9961" form="dim" vgrp="650" />
