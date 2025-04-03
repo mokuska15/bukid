@@ -503,7 +503,7 @@
                            <note xml:id="nngmm3y"   dur="1" oct="3" pname="e" color="#000000" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dir xml:id="d39u4ax" staff="1" tstamp="1" vgrp="2562">
+                     <dir xml:id="d39u4ax" staff="1" tstamp="1" place="above" vgrp="2562">
                         <rend xml:id="r1h7b582" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">Andante religioso</rend>
                      </dir>
                      <tempo xml:id="t1xsk94o" staff="1" tstamp="1" mm="80" mm.unit="4">
@@ -758,7 +758,7 @@
                         </layer>
                      </staff>
                      <slur xml:id="s1iumpvf" color="#000000" startid="#ns7ufpz" endid="#n164yg69" curvedir="below" />
-                     <slur xml:id="sd8cf61" color="#000000" startid="#n188730i" endid="#n1ann3d7" curvedir="below" />
+                     <slur xml:id="sd8cf61" color="#000000" startid="#nqq4ptr" endid="#n1ann3d7" curvedir="below" />
                      <slur xml:id="s4o8p9a" color="#000000" startid="#n188730i" endid="#nqq4ptr" curvedir="below" />
                      <slur xml:id="s15ecvm1" color="#000000" startid="#neuklks" endid="#nfhwj1c" curvedir="below" />
                      <tie xml:id="t1ppyhdh" startid="#n1fqpn5" endid="#n1qso1i" curvedir="below" />
@@ -1151,7 +1151,7 @@
                            <note xml:id="n1nef5mz"   dur="1" oct="3" pname="e" color="#000000" accid.ges="f" />
                         </layer>
                      </staff>
-                     <dir xml:id="dsan0ab" staff="1" tstamp="1" vgrp="2530">
+                     <dir xml:id="dsan0ab" staff="1" tstamp="1"  place="above" vgrp="2530">
                         <rend xml:id="rgv1xjk" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">ritardando</rend>
                      </dir>
                      <dir xml:id="duphsvs" staff="12" tstamp="1" vgrp="2530">
@@ -1159,11 +1159,11 @@
                      </dir>
                      <fermata xml:id="f1afry98" staff="12" startid="#n190gxg6" shape="curved" />
                      <trill xml:id="t1uhkueu" staff="12" startid="#n190gxg6" />
-                     <dir xml:id="dwjp3fv" staff="25" tstamp="1" vgrp="2390">
+                     <dir xml:id="dwjp3fv" staff="25" tstamp="1"   place="above" vgrp="2390">
                         <rend xml:id="r11pqu6o" fontfam="Minion Pro" fontstyle="normal" fontweight="bold">ritardando</rend>
                      </dir>
                      <slur xml:id="s772f7w" color="#000000" startid="#n15nnad2" endid="#n1kzfnl0" curvedir="below" />
-                     <slur xml:id="skhetgn" color="#000000" startid="#n1ue3qv8" endid="#nxfc5xh" curvedir="below" />
+                     <slur xml:id="skhetgn" color="#000000" startid="#n1folo5g" endid="#nxfc5xh" curvedir="below" />
                      <slur xml:id="s1owfa8j" color="#000000" startid="#n1ue3qv8" endid="#n1folo5g" curvedir="below" />
                      <fermata xml:id="f1rbtk3i" staff="25" startid="#n1jt0ovn" shape="curved" />
                      <slur xml:id="s1gfrbq" color="#000000" startid="#n15736w3" endid="#n1q5butm" curvedir="below" />
@@ -1671,9 +1671,9 @@
                      <slur xml:id="s14h4m7a" color="#000000" startid="#n5fyngq" endid="#nxc07vq" curvedir="below" />
                      <slur xml:id="sbhrrrs" color="#000000" startid="#n6mvgw1" endid="#n1cixnxb" curvedir="below" />
                     <trill xml:id="tmq56s3" staff="27" startid="nlun8eg" />
+                     <slur xml:id="syk5frz3" color="#000000" startid="#na5nbda" endid="#ngpevmj" curvedir="below" />
                      <slur xml:id="syk0rz3" color="#000000" startid="#nvl2i5n" endid="#n7v4nf0" curvedir="above" />
                      <slur xml:id="s1vjhe8r" color="#000000" startid="#nc7gark" endid="#n1hx0woy" curvedir="above" />
-                  	
                   </measure>
                   <measure xml:id="m14wymer" facs="#zone_01JN1J8W54VKB9KW72MQ2VNKRK" n="172">
                      <staff xml:id="s1wzhfch" n="1">
@@ -2203,10 +2203,10 @@
                            <space xml:id="sxydvou"  dur="4" />
                            <space xml:id="s1l1g7xa"  dur="8" />
                            <beam xml:id="b1495w73">
-                              <note xml:id="ni3ckfk"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n45m7ku"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="down" accid.ges="f" />
-                              <note xml:id="n1i54i8l"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n1bns3op"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="down" />
+                              <note xml:id="ni3ckfk"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n45m7ku"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="up" accid.ges="f" />
+                              <note xml:id="n1i54i8l"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n1bns3op"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="up" />
                            </beam>
                         </layer>
                      </staff>
@@ -2225,12 +2225,12 @@
                            <space xml:id="s1m62ztw"  dur="4" />
                            <space xml:id="s1nwtjka"  dur="8" />
                            <beam xml:id="b1jk72iq">
-                              <note xml:id="nfrpgqw"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n1me4l9s"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="down">
+                              <note xml:id="nfrpgqw"  dur="32" oct="4" pname="f" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n1me4l9s"  dur="32" oct="4" pname="e" color="#000000" cue="true" stem.dir="up">
                                  <accid xml:id="a1w9vuf8" accid="f" />
                               </note>
-                              <note xml:id="nj6jrwh"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="down" />
-                              <note xml:id="n175k7u4"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="down" />
+                              <note xml:id="nj6jrwh"  dur="32" oct="4" pname="d" color="#000000" cue="true" stem.dir="up" />
+                              <note xml:id="n175k7u4"  dur="32" oct="4" pname="c" color="#000000" cue="true" stem.dir="up" />
                            </beam>
                         </layer>
                      </staff>
@@ -4244,7 +4244,7 @@
                      <dir xml:id="d1kwl52b" staff="1" tstamp="1"  place="above" vgrp="2570">
                         <rend xml:id="r1rfqv2n" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
-                     <dir xml:id="d1k65548" staff="25" tstamp="1" vgrp="2390">
+                     <dir xml:id="d1k65548" staff="25" tstamp="1"  place="above" vgrp="2390">
                         <rend xml:id="rif5hm1" fontfam="Minion Pro" fontstyle="italic" fontweight="normal">tenuto</rend>
                      </dir>
                      <slur xml:id="s1711yel" color="#000000" startid="#n1tdnr8w" endid="#n13gc58c" curvedir="below" />
@@ -8003,6 +8003,8 @@
                      <dynam xml:id="dtgcvqn" staff="10" tstamp="1" vgrp="700">
                         <rend xml:id="r19xvmak" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
+                     <trill xml:id="te4bjlj" staff="12" startid="#n1bzm87b" />
+                     <trill xml:id="te5bjlj" staff="12" startid="#n1utb979" />
                      <dynam xml:id="d1ehfrk3" staff="12" tstamp="1" vgrp="700">
                         <rend xml:id="r9dafme" color="#000000" fontfam="Wolfgang Text Std" fontstyle="normal" fontweight="normal">pp</rend>
                      </dynam>
@@ -8776,6 +8778,7 @@
                      <slur xml:id="sen6m0r" color="#000000" startid="#nka89nr" endid="#n1ypuksz" curvedir="below" />
                      <tie xml:id="tjfk9bg" startid="#nrxlapx" endid="#n2edqn2" curvedir="above" />
                      <slur xml:id="s1t06nrm" color="#000000" startid="#nd7g1f6" endid="#np9kl46" curvedir="above" />
+                     <trill xml:id="te58jlj" staff="12" startid="#nj80e2y" />
                      <tie xml:id="t1fd2cen" startid="#n1m7kcmn" endid="#n6gl9w7" curvedir="below" />
                      <slur xml:id="s1uan6zh" color="#000000" startid="#nj05ico" endid="#n11quo56" curvedir="below" />
                      <slur xml:id="swny33q" color="#000000" startid="#nhhmv9v" endid="#nshbfm" curvedir="below" />
