@@ -2263,7 +2263,7 @@
             <measure xml:id="mttikb" n="52">
               <staff xml:id="s2e8wd" n="1">
                  <layer xml:id="ln12az2" n="1">
-           <note xml:id="n29t16" dots="1" dur="4" oct="4" pname="a"/>
+           <note xml:id="n29t16" dots="1" dur="4" color="red" oct="4" pname="a"/>
                </layer>
               </staff>
               <staff xml:id="swiva4" n="2">
