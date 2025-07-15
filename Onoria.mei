@@ -387,6 +387,8 @@
                     </layer>
               </staff>
             </measure>
+             <app>
+                <lem>
             <measure xml:id="msi6c52" n="11">
               <staff xml:id="snanj45" n="1">
                 <layer xml:id="ldot5h01" n="1">
@@ -414,6 +416,37 @@
               </layer>
               </staff>
             </measure>
+                   </lem>
+                <rdg>
+                <measure xml:id="ms2" n="11">
+              <staff xml:id="sna5" n="1">
+                <layer xml:id="lh01" n="1">
+                    <note xml:id="n0o2" color="red" dots="1" dur="4" oct="5" pname="e"/>
+                 </layer>
+              </staff>
+              <staff xml:id="svg" n="2">
+                <layer xml:id="ldov1" n="1">
+                  <mRest xml:id="mal9" color="red"/>
+                </layer>
+              </staff>
+              <staff xml:id="sp8l1" n="3">
+                <layer xml:id="lk91n2" n="1">
+                    <note xml:id="nelzp1" color="red" dots="1" dur="4" oct="4" pname="e"/>
+                 </layer>
+              </staff>
+              <staff xml:id="s16md1" n="4">
+                 <layer xml:id="lrk9b21" n="1">
+                 <beam xml:id="bbxiq1">
+                <note xml:id="nke" color="red" dots="1" dur="8" oct="3" pname="e"/>
+                <note xml:id="niz1" color="red" dur="16" oct="3" pname="d"/>
+                 <note xml:id="ngatc1" color="red" dur="16" oct="3" pname="c"/>
+                 <note xml:id="n2a2c1" color="red" dur="16" oct="2" pname="b"/>
+                    </beam>
+              </layer>
+              </staff>
+            </measure>
+              </rdg>
+             </app>
             <measure xml:id="m99x8p41" n="12">
              <staff xml:id="s8qdhox1" n="1">
               <layer xml:id="lamkife" n="1">
@@ -1256,7 +1289,6 @@
                    </layer>
               </staff>
             </measure>
- <sb xml:id="s6wpcd21"/>
             <measure xml:id="mqck0qq1" n="38">
               <staff xml:id="srvscri2" n="1">
            <layer xml:id="l6pibx5" n="1">
@@ -1294,6 +1326,7 @@
                  </layer>
               </staff>
             </measure>
+             <sb xml:id="s6wpcd21"/>
             <measure xml:id="mvppuel1" n="39">
               <staff xml:id="s1mbvdy1" n="1">
                 <layer xml:id="l8jgwis2" n="1">
@@ -1672,6 +1705,7 @@
               </staff>
                <slur xml:id="svxivlb" endid="#nhnjyhq1" staff="1" startid="#nj0suev1"/>
              </measure>
+             <sb xml:id="seeubrr1"/>
             <measure xml:id="m85rj5v2" n="51">
               <staff xml:id="s0r6gs9" n="1">
                <layer xml:id="lw7e4601" n="1">
