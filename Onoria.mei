@@ -436,7 +436,7 @@
               </staff>
               <staff xml:id="s16md1" n="4">
                  <layer xml:id="lrk9b21" n="1">
-                 <beam xml:id="bbxiq1">
+                 <beam xml:id="bbxiq1" color="red">
                 <note xml:id="nke" color="red" dots="1" dur="8" oct="3" pname="e"/>
                 <note xml:id="niz1" color="red" dur="16" oct="3" pname="d"/>
                  <note xml:id="ngatc1" color="red" dur="16" oct="3" pname="c"/>
