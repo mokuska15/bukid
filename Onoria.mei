@@ -1216,7 +1216,6 @@
                  </layer>
               </staff>
             </measure>
- <sb xml:id="s6wpcd21"/>
             <measure xml:id="m8x7knv2" n="37">
               <staff xml:id="sdp0wuc" n="1">
                <layer xml:id="luph6ga" n="1">
@@ -1257,6 +1256,7 @@
                    </layer>
               </staff>
             </measure>
+   <sb xml:id="s6wpcd21"/>
             <measure xml:id="mqck0qq1" n="38">
               <staff xml:id="srvscri2" n="1">
            <layer xml:id="l6pibx5" n="1">
