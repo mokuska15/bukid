@@ -10,7 +10,7 @@
       </fileDesc>
       <encodingDesc xml:id="esm139s1">
          <appInfo xml:id="aex4s1k1">
-            <application xml:id="ag63k5a1" enddate="2025-07-11T16:34:14" startdate="2025-07-11T16:30:32" version="1.2.6">
+            <application xml:id="ag63k5a1" enddate="2025-07-15T15:11:27" startdate="2025-07-11T16:30:32" version="1.2.6">
                <name xml:id="ny2s71c1">mei-friend</name>
                <p xml:id="ppl2sqx2">First edit by mei-friend 1.2.6, 4 June 2025.</p>
             </application>
@@ -26,13 +26,13 @@
         <scoreDef xml:id="samehp91">
           <staffGrp xml:id="sx6cbh61">
             <staffDef xml:id="s14a56" clef.line="2" clef.shape="G" lines="5" meter.count="3" meter.unit="8" n="1">
-              <label xml:id="lz4qxy4">Tutti</label>
+              <label xml:id="lz4qxy4">Soprano</label>
             </staffDef>
             <staffDef xml:id="szcquhk1" clef.line="3" clef.shape="C" lines="5" meter.count="3" meter.unit="8" n="2">
-              <label xml:id="licmoi71">Viola</label>
+              <label xml:id="licmoi71">Alto</label>
             </staffDef>
              <staffDef xml:id="sx05ds61" clef.line="4" clef.shape="F" lines="5" meter.count="3" meter.unit="8" n="3">
-              <label xml:id="laaklro2">Bassi</label>
+              <label xml:id="laaklro2">Basso</label>
             </staffDef>
           </staffGrp>
         </scoreDef>
@@ -46,20 +46,13 @@
                 <note xml:id="nl5gi4" dur="32" oct="5" pname="g"/>
                  <note xml:id="n6s177s2" dur="32" oct="5" pname="f"/>
                  <note xml:id="n38zefc1" dur="8" oct="5" pname="e"/>
-                  </beam>
+                    </beam>
               </layer>
             </staff>
             <staff xml:id="s6xuq8k1" n="2">
               <layer xml:id="lctjyx41" n="1">
-               <app>
-                  <lem>
                 <note xml:id="nv8qo0y1" dur="4" oct="4" pname="c"/>
                 <note xml:id="nv9pjsn1" dur="8" oct="5" pname="c"/>
-                  </lem>
-                  <rdg>
-                  <mRest></mRest>
-                  </rdg>
-                  </app>
               </layer>
             </staff>
              <staff xml:id="smzaa1q2" n="3">
@@ -81,18 +74,11 @@
             </staff>
             <staff xml:id="syqnl23" n="2">
               <layer xml:id="lxsmkp6" n="1">
-                 <app>
-                    <lem>
               <beam xml:id="b37vtft1">
                 <note xml:id="n1895411" dur="8" oct="4" pname="e"/>
                 <note xml:id="n1mr5zd1" accid="s" dots="1" dur="8" oct="4" pname="g"/>
                  <note xml:id="necacn8" dur="16" oct="4" pname="g"/>
                     </beam>
-                       </lem>
-                    <rdg>
-                    <mRest></mRest>
-                    </rdg>
-                    </app>
               </layer>
             </staff>
              <staff xml:id="sem07si1" n="3">
@@ -118,15 +104,8 @@
             </staff>
             <staff xml:id="sxzo59t1" n="2">
               <layer xml:id="ld115v61" n="1">
-                 <app>
-                    <lem>
                 <note xml:id="n032g7g" dur="4" oct="4" pname="e"/>
                 <note xml:id="nxlfmo11" dur="8" oct="4" pname="b"/>
-                       </lem>
-                    <rdg>
-                    <mRest></mRest>
-                    </rdg>
-                    </app>
               </layer>
             </staff>
              <staff xml:id="sh9q751" n="3">
@@ -148,18 +127,13 @@
             </staff>
             <staff xml:id="sc37y5d1" n="2">
               <layer xml:id="l2oakne1" n="1">
-                 <app>
-                    <lem>
               <beam xml:id="bhg9aae">
                 <note xml:id="nuamr19" dur="8" oct="5" pname="c"/>
-                <note xml:id="n9zi9e41" dots="1" dur="8" oct="4" pname="b"/>
+                <note xml:id="n9zi9e41" dots="1" dur="8" oct="4" pname="b">
+                 </note>
+
                  <note xml:id="nwsq9431" dur="16" oct="5" pname="c"/>
                     </beam>
-                    </lem>
-                    <rdg>
-                    <mRest></mRest>
-                    </rdg>
-                    </app>
               </layer>
             </staff>
              <staff xml:id="sy9xugn1" n="3">
@@ -185,18 +159,12 @@
             </staff>
             <staff xml:id="sadbbjv1" n="2">
               <layer xml:id="l59680t1" n="1">
-                 <app>
-                    <lem>
               <beam xml:id="blrz5nt2">
                 <note xml:id="n00sh1q2" dur="8" oct="4" pname="a"/>
-                <note xml:id="nzclm4b" dots="1" dur="8" oct="4" pname="a"/>
+                <note xml:id="nzclm4b" dots="1" dur="8" oct="4" pname="a">
+                 </note>
                  <note xml:id="n5t1tbp1" accid="s" dur="16" oct="4" pname="g"/>
                     </beam>
-                       </lem>
-                    <rdg>
-                    <mRest></mRest>
-                    </rdg>
-                    </app>
               </layer>
             </staff>
              <staff xml:id="sdxsh6i2" n="3">
@@ -220,15 +188,8 @@
                </staff>
            <staff xml:id="skqsz7b1" n="2">
               <layer xml:id="lb5vo9q2" n="1">
-                 <app>
-                    <lem>
                   <note xml:id="n4dkkv91" accid="s" dots="1" dur="4" oct="4" pname="g"/>
-               </lem>
-                    <rdg>
-                    <mRest></mRest>
-                    </rdg>
-                       </app>
-                    </layer>
+               </layer>
                </staff>
 					<staff xml:id="sz4v91z1" n="3">
               <layer xml:id="lngrg14" n="1">
@@ -575,6 +536,7 @@
               <fermata xml:id="f0pq88k2" staff="1" startid="#n9wiru21"/>
               <fermata xml:id="fmm3g7h" staff="2" startid="#n7q6yb51"/>
               <fermata xml:id="frmn721" staff="3" startid="#nebwevq1"/>
+              <dynam xml:id="dopogfy2" staff="3" startid="#nebwevq1">Fine</dynam>
            </measure>
         </section>
       </score>
