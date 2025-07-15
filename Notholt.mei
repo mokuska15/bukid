@@ -26,13 +26,13 @@
         <scoreDef xml:id="samehp91">
           <staffGrp xml:id="sx6cbh61">
             <staffDef xml:id="s14a56" clef.line="2" clef.shape="G" lines="5" meter.count="3" meter.unit="8" n="1">
-              <label xml:id="lz4qxy4">Soprano</label>
+              <label xml:id="lz4qxy4"></label>
             </staffDef>
             <staffDef xml:id="szcquhk1" clef.line="3" clef.shape="C" lines="5" meter.count="3" meter.unit="8" n="2">
-              <label xml:id="licmoi71">Alto</label>
+              <label xml:id="licmoi71"></label>
             </staffDef>
              <staffDef xml:id="sx05ds61" clef.line="4" clef.shape="F" lines="5" meter.count="3" meter.unit="8" n="3">
-              <label xml:id="laaklro2">Basso</label>
+              <label xml:id="laaklro2"></label>
             </staffDef>
           </staffGrp>
         </scoreDef>
