@@ -7,13 +7,36 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js" defer></script>
     <div class="pane">
-      <h2>Interaktív kotta</h2>
-      <button id="original">Chrysander</button>
-      <button id="change">Bearbeitung</button>
-      <button id="notholt">Notholt</button>
-      <br>
-      <div id="notation"></div>
-    </div>
+  <h2>Interaktív kotta</h2>
+  <div class="button-group">
+    <button id="original">Chrysander</button>
+    <button id="change">Bearbeitung</button>
+    <button id="notholt">Notholt</button>
+  </div>
+  <br>
+  <div id="notation"></div>
+</div>
+  .button-group {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  font-size: 1.2rem;
+  padding: 12px 24px;
+  margin: 8px;
+  border: none;
+  border-radius: 12px;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #0056b3;
+}
+
 <script>
     document.addEventListener("DOMContentLoaded", () => {
       verovio.module.onRuntimeInitialized = function () {
