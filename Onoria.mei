@@ -436,7 +436,7 @@
               </staff>
               <staff xml:id="s16md1" n="4">
                  <layer xml:id="lrk9b21" n="1">
-                 <beam xml:id="bbxiq1" color="red">
+                 <beam xml:id="bbxiq1">
                 <note xml:id="nke" color="red" dots="1" dur="8" oct="3" pname="e"/>
                 <note xml:id="niz1" color="red" dur="16" oct="3" pname="d"/>
                  <note xml:id="ngatc1" color="red" dur="16" oct="3" pname="c"/>
@@ -447,6 +447,8 @@
             </measure>
               </rdg>
              </app>
+             <app>
+                <lem>
             <measure xml:id="m99x8p41" n="12">
              <staff xml:id="s8qdhox1" n="1">
               <layer xml:id="lamkife" n="1">
@@ -478,6 +480,41 @@
                <dynam xml:id="d8188bt2" staff="4" startid="#ne7hc1e">f</dynam>
                <dir xml:id="def8s7w2" staff="1" place="above" startid="#njxw02f1">Tutti.</dir>
              </measure>
+                   </lem>
+                <rdg>
+                <measure xml:id="m98p41"  n="12">
+             <staff xml:id="s8qox1"  n="1">
+              <layer xml:id="laife" n="1">
+                 <beam xml:id="b1ztc" color="red">
+                <note xml:id="nj02f1" dots="1" dur="8" oct="5" pname="a"/>
+                <note xml:id="nylzik1" dur="32" oct="5" pname="g"/>
+                 <note xml:id="n3xuy1" dur="32" oct="5" pname="f"/>
+                 <note xml:id="ny5m1" dur="8" oct="5" pname="e"/>
+                    </beam>
+              </layer>
+            </staff>
+              <staff xml:id="swqbe1" n="2">
+              <layer xml:id="lv22" n="1">
+                <note xml:id="n5rt71" dur="4" color="red" oct="4" pname="c"/>
+                <note xml:id="n6ub1" dur="8" color="red" oct="5" pname="c"/>
+              </layer>
+            </staff>
+              <staff xml:id="spfq2" n="3">
+                <layer xml:id="lfb21" n="1">
+                 <mRest xml:id="me2g" color="red"/>
+                 </layer>
+              </staff>
+              <staff xml:id="sdxv1" n="4">
+              <layer xml:id="l56m2" n="1">
+                <note xml:id="ne7e" dots="1" color="red" dur="4" oct="2" pname="a"/>
+              </layer>
+            </staff>
+               <dynam xml:id="dfll2" staff="1" color="red" startid="#njxw02f1">f</dynam>
+               <dynam xml:id="d8bt2" staff="4" color="red" startid="#ne7hc1e">f</dynam>
+               <dir xml:id="def2" staff="1" color="red" place="above" startid="#njxw02f1">Tutti.</dir>
+             </measure>
+                </rdg>
+                </app>
             <measure xml:id="mqeg2io1" n="13">
               <staff xml:id="s1yosc7" n="1">
               <layer xml:id="l2u1ek51" n="1">
