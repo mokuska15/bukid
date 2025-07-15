@@ -3,58 +3,62 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Interacting with editorial markup</title>
+  <title>Interaktív kotta – MEI</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <script src="https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js" defer></script>
-    <div class="pane">
-  <h2>Interaktív kotta</h2>
-  <div class="button-group">
-    <button id="original">Chrysander</button>
-    <button id="change">Bearbeitung</button>
-    <button id="notholt">Notholt</button>
-  </div>
-  <br>
-  <div id="notation"></div>
-</div>
+
   <style>
-  .button-group {
-  text-align: center;
-  margin-bottom: 20px;
-}
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 40px;
+    }
 
-.button-group button {
-  font-size: 1.2rem;
-  padding: 12px 24px;
-  margin: 8px;
-  border: none;
-  border-radius: 12px;
-  background-color: #007BFF;
-  color: white;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+    .button-group {
+      text-align: center;
+      margin-bottom: 20px;
+    }
 
-.button-group button:hover {
-  background-color: #0056b3;
-}
-</style>
-<script>
+    .button-group button {
+      font-size: 1.2rem;
+      padding: 12px 24px;
+      margin: 8px;
+      border: none;
+      border-radius: 12px;
+      background-color: #007BFF;
+      color: white;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .button-group button:hover {
+      background-color: #0056b3;
+    }
+
+    #notation {
+      margin-top: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="pane">
+    <h2 style="text-align:center;">Interaktív kotta</h2>
+    <div class="button-group">
+      <button id="original">Chrysander</button>
+      <button id="change">Bearbeitung</button>
+      <button id="notholt">Notholt</button>
+    </div>
+    <div id="notation"></div>
+  </div>
+
+  <script>
     document.addEventListener("DOMContentLoaded", () => {
       verovio.module.onRuntimeInitialized = function () {
         const tk = new verovio.toolkit();
         let appXPath = [];
         let currentPage = 1;
         const notationElement = document.getElementById("notation");
-
-        document.getElementById("notholt").addEventListener("click", () => {
-  fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/Notholt.mei")
-    .then(response => response.text())
-    .then(meiXML => {
-      tk.loadData(meiXML);
-      currentPage = 1;
-      notationElement.innerHTML = tk.renderToSVG(currentPage);
-    });
-});
 
         function loadFile() {
           fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/Onoria.mei")
@@ -68,7 +72,7 @@
                 adjustPageHeight: true,
                 appXPathQuery: appXPath
               });
-              tk.loadData(meiXML); // összes mdiv egyben
+              tk.loadData(meiXML);
               currentPage = 1;
               notationElement.innerHTML = tk.renderToSVG(currentPage);
             });
@@ -94,9 +98,19 @@
           loadFile();
         });
 
+        document.getElementById("notholt").addEventListener("click", () => {
+          fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/Notholt.mei")
+            .then(response => response.text())
+            .then(meiXML => {
+              tk.loadData(meiXML);
+              currentPage = 1;
+              notationElement.innerHTML = tk.renderToSVG(currentPage);
+            });
+        });
+
         window.addEventListener("resize", updateVerovioSize);
         loadFile();
-          };
+      };
     });
   </script>
 </body>
