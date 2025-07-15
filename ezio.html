@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interacting with editorial markup</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://www.verovio.org/javascript/develop/verovio-toolkit-wasm.js" defer></script>
+    <div class="left-pane">
+      <h2>Interaktív kotta</h2>
+      <button id="original">Chrysander</button>
+      <button id="change">Bearbeitung</button>
+      <button id="notholt">Notholt</button>
+      <br>
+      <div id="notation"></div>
+    </div>
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+      verovio.module.onRuntimeInitialized = function () {
+        const tk = new verovio.toolkit();
+        let appXPath = [];
+        let currentPage = 1;
+        const notationElement = document.getElementById("notation");
+
+        document.getElementById("notholt").addEventListener("click", () => {
+  fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/Notholt.mei")
+    .then(response => response.text())
+    .then(meiXML => {
+      tk.loadData(meiXML);
+      currentPage = 1;
+      notationElement.innerHTML = tk.renderToSVG(currentPage);
+    });
+});
+
+        function loadFile() {
+          fetch("https://raw.githubusercontent.com/mokuska15/bukid/refs/heads/main/Onoria.mei")
+            .then(response => response.text())
+            .then(meiXML => {
+              tk.setOptions({
+                pageWidth: 2500,
+                pageHeight: 2500,
+                scale: 60,
+                breaks: "encoded",
+                adjustPageHeight: true,
+                appXPathQuery: appXPath
+              });
+              tk.loadData(meiXML); // összes mdiv egyben
+              currentPage = 1;
+              notationElement.innerHTML = tk.renderToSVG(currentPage);
+            });
+        }
+
+        function updateVerovioSize() {
+          tk.setOptions({
+            pageWidth: 3000,
+            pageHeight: 3000,
+            scale: 60,
+            breaks: "encoded"
+          });
+          notationElement.innerHTML = tk.renderToSVG(currentPage);
+        }
+
+        document.getElementById("original").addEventListener("click", () => {
+          appXPath = [".//lem"];
+          loadFile();
+        });
+
+        document.getElementById("change").addEventListener("click", () => {
+          appXPath = [".//rdg"];
+          loadFile();
+        });
+
+        window.addEventListener("resize", updateVerovioSize);
+        loadFile();
+          };
+    });
+  </script>
+</body>
+</html>
