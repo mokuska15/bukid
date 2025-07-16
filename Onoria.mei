@@ -431,7 +431,7 @@
               </staff>
               <staff xml:id="sp8l1" n="3">
                 <layer xml:id="lk91n2" n="1">
-                    <note xml:id="nelzp1" color="red" dots="1" dur="4" oct="4" pname="e"/>
+                    <note xml:id="nelzp1" dots="1" dur="4" oct="4" pname="e"/>
                  </layer>
               </staff>
               <staff xml:id="s16md1" n="4">
@@ -501,7 +501,7 @@
             </staff>
               <staff xml:id="spfq2" n="3">
                 <layer xml:id="lfb21" n="1">
-                 <mRest xml:id="me2g" color="red"/>
+                 <mRest xml:id="me2g" />
                  </layer>
               </staff>
               <staff xml:id="sdxv1" n="4">
@@ -509,9 +509,9 @@
                 <note xml:id="ne7e" dots="1" color="red" dur="4" oct="2" pname="a"/>
               </layer>
             </staff>
-               <dynam xml:id="dfll2" staff="1" color="red" startid="#njxw02f1">f</dynam>
-               <dynam xml:id="d8bt2" staff="4" color="red" startid="#ne7hc1e">f</dynam>
-               <dir xml:id="def2" staff="1" color="red" place="above" startid="#njxw02f1">Tutti.</dir>
+               <dynam xml:id="dflnhel2" staff="1" startid="#njxw02f1">f</dynam>
+               <dynam xml:id="d8188bt2" staff="4" startid="#ne7hc1e">f</dynam>
+               <dir xml:id="def8s7w2" staff="1" place="above" startid="#njxw02f1">Tutti.</dir>
              </measure>
                 </rdg>
                 </app>
@@ -574,7 +574,7 @@
             </staff>
               <staff xml:id="sj8ivc" n="3">
                 <layer xml:id="ljjvft2" n="1">
-                 <mRest xml:id="mc6cu1" color="red"/>
+                 <mRest xml:id="mc6cu1" />
                  </layer>
               </staff>
               <staff xml:id="sir5t71" n="4">
@@ -596,7 +596,7 @@
                 <layer xml:id="l7rk8mj1" n="1">
                  <beam xml:id="b2765wq2">
                 <note xml:id="n9rfyr2" dots="1" dur="8" oct="5" pname="a"/>
-                <note xml:id="nuqi84r1" dots="1" dur="16" oct="5" pname="b"/>
+                <note xml:id="nuqi84r1"  dur="16" oct="5" pname="b"/>
                  <note xml:id="nhwaqdf" dur="8" oct="5" pname="g"/>
                     </beam>
               </layer>
@@ -639,7 +639,7 @@
               </staff>
               <staff xml:id="sst6pv2" n="3">
                <layer xml:id="l8pyd61" n="1">
-                 <mRest xml:id="mec0d8" color="red"/>
+                 <mRest xml:id="mec0d8"/>
                  </layer>
               </staff>
               <staff xml:id="sajnq1" n="4">
@@ -712,7 +712,7 @@
               </staff>
               <staff xml:id="s5daep1"  n="3">
               <layer xml:id="lvm8os1"  n="1">
-                 <mRest xml:id="mkt6951" color="red"/>
+                 <mRest xml:id="mkt6951"/>
                  </layer>
               </staff>
               <staff xml:id="sm2zbj1" n="4">
@@ -789,7 +789,7 @@
               </staff>
               <staff xml:id="s3nsj51" n="3">
                  <layer xml:id="lf5at2" n="1">
-                 <mRest xml:id="moncea" color="red"/>
+                 <mRest xml:id="moncea"/>
                  </layer>
               </staff>
               <staff xml:id="si5wxq2" n="4">
@@ -844,7 +844,7 @@
               </staff>
               <staff xml:id="silqnk1" n="3">
                 <layer xml:id="l2fdp91" n="1">
-                 <mRest xml:id="mqyncw2"  color="red"/>
+                 <mRest xml:id="mqyncw2"/>
                  </layer>
               </staff>
               <staff xml:id="sevqzt2" n="4">
@@ -1780,7 +1780,7 @@
               </staff>
               <staff xml:id="szemex2" n="3">
                  <layer xml:id="lfwi0y1" n="1">
-                <note xml:id="n4jqh81" dots="1" dur="4" oct="4" color="red" pname="a"/>
+                <note xml:id="n4jqh81" dots="1" dur="4" oct="4" pname="a"/>
               </layer>
               </staff>
               <staff xml:id="szc32w2" n="4">
@@ -1849,7 +1849,7 @@
               </staff>
               <staff xml:id="szhg7d" n="3">
                  <layer xml:id="l884mv1" n="1">
-                  <mRest xml:id="m975oy1" color="red"/>
+                  <mRest xml:id="m975oy1"/>
                 </layer>
                  </staff>
               <staff xml:id="s7v3lf1" n="4">
@@ -1921,7 +1921,7 @@
               </staff>
               <staff xml:id="sai1mb" n="3">
                 <layer xml:id="l7fgym1" n="1">
-                  <mRest xml:id="mhda5y1" color="red"/>
+                  <mRest xml:id="mhda5y1"/>
                 </layer>
               </staff>
               <staff xml:id="scvdut1" n="4">
@@ -1995,7 +1995,7 @@
               </staff>
               <staff xml:id="sck45f1" n="3">
                <layer xml:id="l56jwx2" n="1">
-                  <mRest xml:id="msruee" color="red"/>
+                  <mRest xml:id="msruee"/>
                 </layer>
               </staff>
               <staff xml:id="s309pa" n="4">
@@ -2069,7 +2069,7 @@
               </staff>
               <staff xml:id="swh744" n="3">
                 <layer xml:id="l3m83f" n="1">
-                  <mRest xml:id="m0csgl1" color="red"/>
+                  <mRest xml:id="m0csgl1"/>
                 </layer>
               </staff>
               <staff xml:id="sna3wh1" n="4">
@@ -2144,7 +2144,7 @@
               </staff>
               <staff xml:id="sbmg03" n="3">
                 <layer xml:id="l16jni1" n="1">
-                  <mRest xml:id="m8uj371" color="red"/>
+                  <mRest xml:id="m8uj371"/>
                 </layer>
               </staff>
               <staff xml:id="sx43w81" n="4">
@@ -2216,7 +2216,7 @@
               </staff>
               <staff xml:id="srj89s2" n="3">
                  <layer xml:id="l1l09p1" n="1">
-                  <mRest xml:id="mdvgwy2" color="red"/>
+                  <mRest xml:id="mdvgwy2"/>
                 </layer>
               </staff>
               <staff xml:id="szirmn2" n="4">
@@ -2273,7 +2273,7 @@
               </staff>
               <staff xml:id="s2dh4p1" n="3">
                 <layer xml:id="lyo1z21" n="1">
-                  <mRest xml:id="m5iga4" color="red"/>
+                  <mRest xml:id="m5iga4"/>
                 </layer>
               </staff>
               <staff xml:id="s93okq2" n="4">
@@ -2282,7 +2282,7 @@
                </layer>
               </staff>
                <fermata xml:id="fyo98b" staff="1 2 4" startid="#nz009sf"/>
-               <dir xml:id="dhofk81" staff="4" startid="#nz009sf">(Fine.)</dir>
+               <dir xml:id="dhofk81" staff="4" color="red" startid="#nz009sf">(Fine.)</dir>
              </measure>
                 </rdg>
                 </app>
